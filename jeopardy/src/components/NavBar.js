@@ -12,8 +12,9 @@ function NavBar(){
             exact
             
             activeStyle={{
-                background:"lightblue",
+                color:"blue",
             }}
+            className="navOption"
             >
                 Rules   
             </NavLink>
@@ -22,8 +23,9 @@ function NavBar(){
             exact
            
             activeStyle={{
-                background:"lightblue",
+                color:"blue",
             }}
+            className="navOption"
             >
                 Play Jeopardy!   
             </NavLink>
@@ -32,8 +34,9 @@ function NavBar(){
             exact
            
             activeStyle={{
-                background:"lightblue",
+                color:"blue",
             }}
+            className="navOption"
             >
                 Add a New Question!   
             </NavLink>
