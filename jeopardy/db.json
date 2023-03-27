@@ -1,0 +1,200 @@
+{
+    "questions":[
+        {
+            "id":1,
+            "category":"movies",
+            "value":200,
+            "prompt":"Which team's jersey does Happy Gilmore wear to his first tournament?",
+            "correctAnswers":["boston bruins","bruins"]
+        },
+        {
+            "id":2,
+            "category":"movies",
+            "value":200,
+            "prompt":"What is Morgan Freeman's character's name in The Dark Knight?",
+            "correctAnswers":["lucius fox","lucius","fox"]
+        },
+        {
+            "id":3,
+            "category":"movies",
+            "value":200,
+            "prompt":"Complete the quote: \"If you build it, ________\"?",
+            "correctAnswers":["nerds will come","they will come"]
+        },
+        {
+            "id":4,
+            "category":"movies",
+            "value":400,
+            "prompt":"What was Stanley's last name in the movies Holes?",
+            "correctAnswers":["yelnats"]
+        },
+        {
+            "id":5,
+            "category":"movies",
+            "value":400,
+            "prompt":"Who signed Brennan's samurai sword in Step Brothers?",
+            "correctAnswers":["randy jackson"]
+        },
+        {
+            "id":6,
+            "category":"movies",
+            "value":400,
+            "prompt":"What tool does Andy Dufrene use to tunnel out of prison?",
+            "correctAnswers":["spoon","a spoon"]
+        },
+        {
+            "id":7,
+            "category":"movies",
+            "value":600,
+            "prompt":"Which actor narrates the other guys?",
+            "correctAnswers":["ice-t","ice t"]
+        },
+        {
+            "id":8,
+            "category":"movies",
+            "value":600,
+            "prompt":"What state do the Simpsons run away to in The Simpsons Movie?",
+            "correctAnswers":["alaska"]
+        },
+        {
+            "id":9,
+            "category":"movies",
+            "value":600,
+            "prompt":"What is Jack Black's character's full name in School of Rock?",
+            "correctAnswers":["dewey finn","dewey fin"]
+            
+        },
+        {
+            "id":10,
+            "category":"movies",
+            "value":800,
+            "prompt":"What is the name of the opening song from South Park: Bigger,Longer and Uncut?",
+            "correctAnswers":["mountain town"]
+            
+        },
+        {
+            "id":11,
+            "category":"movies",
+            "value":800,
+            "prompt":"Which model of car did Ralph Maccio's charactere in My Cousin Vinny drive?",
+            "correctAnswers":["buick skylark", "skylark"]
+            
+        },
+        {
+            "id":12,
+            "category":"movies",
+            "value":800,
+            "prompt":"What was the first song sung by Sophie in Mamma Mia?",
+            "correctAnswers":["honey honey","honey, honey", "honey-honey"]
+            
+        },
+        {
+            "id":13,
+            "category":"movies",
+            "value":1000,
+            "prompt":"What was the first infinity stone that Thanos was able to collect?",
+            "correctAnswers":["power","the power stone","power stone"]
+            
+        },
+        {
+            "id":14,
+            "category":"movies",
+            "value":1000,
+            "prompt":"What is the first name of Asthon Kutcher's character in No Strings Attached?",
+            "correctAnswers":["adam"]
+            
+        },
+        {
+            "id":15,
+            "category":"movies",
+            "value":1000,
+            "prompt":"In The Incredibles, who is the hero that Mr. Incredible finds dead in a cave?",
+            "correctAnswers":["gazerbeam","gazerbeam","gaserbeam","gaserbeem"]
+            
+        },
+        {
+            "id":16,
+            "category":"tv",
+            "value":200,
+            "prompt":"Finish this list of Friends: Joey, Phoebe, Rachel, Ross, Monica, ____",
+            "correctAnswers":["chandler"]
+            
+        },
+        {
+            "id":17,
+            "category":"tv",
+            "value":200,
+            "prompt":"What is the name of Phineas and Ferb's older sister",
+            "correctAnswers":["candace","candice"]
+            
+        },
+        {
+            "id":18,
+            "category":"tv",
+            "value":200,
+            "prompt":"Who is the oldest of Ned Stark's children?",
+            "correctAnswers":["robb","robb stark","rob stark","rob"]
+            
+        },
+        {
+            "id":19,
+            "category":"tv",
+            "value":400,
+            "prompt":"Who created Community?",
+            "correctAnswers":["dan harmon","harmon","harmin","dan harmin"]
+            
+        },
+        {
+            "id":20,
+            "category":"tv",
+            "value":400,
+            "prompt":"Who is the voice of Spongebob Squarepants?",
+            "correctAnswers":["tom kenny","kenny"]
+            
+        },
+        {
+            "id":21,
+            "category":"tv",
+            "value":400,
+            "prompt":"There are two Jewish kids in South Park. One is named Kyle. What is the other's name?",
+            "correctAnswers":["ike"]
+            
+        },
+        {
+            "id":22,
+            "category":"tv",
+            "value":600,
+            "prompt":"In Friends, what do Chandler and Monica name their son?",
+            "correctAnswers":["jack","jack bing"]
+            
+        },
+        {
+            "id":23,
+            "category":"tv",
+            "value":600,
+            "prompt":"What was the name of the song that Andy Dwyer wrote for lil' Sebastian?",
+            "correctAnswers":["5000 candles in the wind","five thousand candles in the wind","five-thousand candles in the wind"]
+            
+        },
+        {
+            "id":24,
+            "category":"tv",
+            "value":600,
+            "prompt":"Who is the oldest of Ned Stark's children?",
+            "correctAnswers":["robb","robb stark","rob stark","rob"]
+            
+        },
+        {
+            "id":25,
+            "category":"tv",
+            "value":800,
+            "prompt":"A member of a showmance won season 11 of big brother. Who was the other person?",
+            "correctAnswers":["jeff"]
+            
+        }
+        
+        
+
+
+
+        ]}
