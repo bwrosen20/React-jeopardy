@@ -12,6 +12,9 @@ function App(){
     const [currentArray,setCurrentArray]=useState([])
     const [team1Points,setTeam1Points]=useState(0)
     const [team2Points,setTeam2Points]=useState(0)
+    const [teamCounter,setTeamCounter]=useState(true)
+    const [inputValue,setInputValue]=useState("")
+    const history=useHistory();
 
 useEffect(()=>{
     fetch("http://localhost:3001/questions")
@@ -26,14 +29,15 @@ function onAnswered(value){
 }
 
 
-const history=useHistory();
+
 
 function handleClick(event){
-    history.push("/question")
+    
     console.log(event.target)
     setCurrentArray(questionList.filter((question)=>(
         question.className===event.target.id
     )))
+    history.push("/question")
 }
 
 
@@ -46,10 +50,10 @@ return (
             <NewQuestionForm />
         </Route>
         <Route exact path="/board">
-            <Board handleClick={handleClick} team1Points={team1Points} team2Points={team2Points}/>
+            <Board teamCounter={teamCounter} handleClick={handleClick} team1Points={team1Points} team2Points={team2Points}/>
         </Route>
         <Route exact path="/question">
-            <PickAQuestion questionArray={currentArray} onAnswered={onAnswered}/>
+            <PickAQuestion inputValue={inputValue} questionArray={currentArray} onAnswered={onAnswered}/>
         </Route>
         <Route exact path="/">
             <Rules />

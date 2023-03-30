@@ -1,6 +1,6 @@
 import React from "react"
 
-function Board({handleClick, team1Points,team2Points}){
+function Board({teamCounter, handleClick, team1Points,team2Points}){
 
    
 
@@ -9,6 +9,12 @@ function Board({handleClick, team1Points,team2Points}){
 
 
     return (<div>
+
+        <div>
+            {teamCounter?<h1>Team 1's Turn</h1>:<h1>Team 2's Turn</h1>}
+        </div>
+
+
     <div className="categories">
         <button className="category">Movies</button>
         <button className="category">TV</button>

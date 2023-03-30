@@ -1,7 +1,7 @@
 import React from "react"
 import Question from "./Question"
 
-function PickAQuestion({questionArray, onAnswered}){
+function PickAQuestion({inputValue, questionArray, onAnswered}){
 
     
 
@@ -14,7 +14,7 @@ function PickAQuestion({questionArray, onAnswered}){
 
     return <div>
 
-              <Question question={questionToAsk} onAnswered={onAnswered}/>  
+              <Question inputValue={inputValue} question={questionToAsk} onAnswered={onAnswered}/>  
             
     </div>
 

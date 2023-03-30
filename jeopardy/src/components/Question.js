@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from "react"
 import {useHistory} from "react-router-dom"
 
-function Question({question, onAnswered}){
+function Question({inputValue, question, onAnswered}){
 
     const history=useHistory();
     const [timeRemaining,setTimeRemaining]=useState(15)
@@ -25,6 +25,10 @@ function Question({question, onAnswered}){
       
       
       },[timeRemaining])
+
+      function handleSubmitAnswer(event){
+          event.preventDefault()
+      }
    
 
     return <div>
@@ -32,8 +36,8 @@ function Question({question, onAnswered}){
         <h1>{timeRemaining}</h1>
             
         <h1>{question.prompt}</h1>
-        <form>
-            <input placeholder="type answer here"></input>
+        <form onSubmit={handleSubmitAnswer}>
+            <input placeholder="type answer here" value={inputValue} onChange={onAnswered}></input>
             <button>Submit</button>
 
         </form>
