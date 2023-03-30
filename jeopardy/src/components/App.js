@@ -24,11 +24,21 @@ useEffect(()=>{
 },[])
 
 function handleSubmitAnswer(value,points,correctArray){
-    console.log(value)
-    console.log(points)
-    console.log(correctArray)
+    if ((correctArray).includes((value).toLowerCase())){
+        if (teamCounter){
+            setTeam1Points(()=>team1Points+points)
+        }
+        else{
+            setTeam2Points(()=>team2Points+points)
+        }
+    }
+
+    setTeamCounter(!teamCounter)
+    history.push("/board")
     
-}
+    }
+    
+
 
 function handleClick(event){
     

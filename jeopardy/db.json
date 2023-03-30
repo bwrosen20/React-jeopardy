@@ -204,7 +204,7 @@
             "category":"tv",
             "value":600,
             "prompt":"Who is the oldest of Ned Stark's children?",
-            "correctAnswers":["Robb","robb stark","rob stark","rob"],
+            "correctAnswers":["robb","robb stark","rob stark","rob"],
             "className":"tv600"
             
         },
@@ -213,7 +213,7 @@
             "category":"tv",
             "value":800,
             "prompt":"A member of a showmance won season 11 of big brother. Who was the other person?",
-            "correctAnswers":["Jeff"],
+            "correctAnswers":["jeff"],
             "className":"tv800"
             
         },
@@ -231,7 +231,7 @@
             "category":"tv",
             "value":800,
             "prompt":"In Community, who is the gang trying to chear up the first time they played Dungeons and Dragons?",
-            "correctAnswers":["Ceil","fat neil","neal","fat neal"],
+            "correctAnswers":["neil","fat neil","neal","fat neal"],
             "className":"tv800"
             
         },
@@ -240,7 +240,7 @@
             "category":"tv",
             "value":1000,
             "prompt":"In The Office, who is the main character in Toby's mystery novels?",
-            "correctAnswers":["Chad Flenderman","Flenderman"],
+            "correctAnswers":["chad Flenderman","flenderman"],
             "className":"tv1000"
             
         },
@@ -249,7 +249,7 @@
             "category":"tv",
             "value":1000,
             "prompt":"In Chuck, what is the name of the computer that gets installed in Chuck's mind?",
-            "correctAnswers":["The Intersect","intersect"],
+            "correctAnswers":["the Intersect","intersect"],
             "className":"tv1000"
             
         },
@@ -258,7 +258,7 @@
             "category":"tv",
             "value":1000,
             "prompt":"Finish this Uncle Iroh quote: \"It's time for you to look inward, and start asking yourself the big questions. Who Are you? __________",
-            "correctAnswers":["And what do you want?","and what do you want"],
+            "correctAnswers":["and what do you want?","and what do you want"],
             "className":"tv1000"
             
         }
