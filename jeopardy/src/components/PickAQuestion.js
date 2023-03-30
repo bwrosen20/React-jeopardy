@@ -1,7 +1,7 @@
 import React from "react"
 import Question from "./Question"
 
-function PickAQuestion({inputValue, questionArray, onAnswered}){
+function PickAQuestion({handleSubmitAnswer, questionArray}){
 
     
 
@@ -14,7 +14,7 @@ function PickAQuestion({inputValue, questionArray, onAnswered}){
 
     return <div>
 
-              <Question inputValue={inputValue} question={questionToAsk} onAnswered={onAnswered}/>  
+              <Question handleSubmitAnswer={handleSubmitAnswer} question={questionToAsk} />  
             
     </div>
 

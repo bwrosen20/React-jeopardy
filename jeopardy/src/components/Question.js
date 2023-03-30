@@ -1,10 +1,11 @@
 import React, {useState, useEffect} from "react"
 import {useHistory} from "react-router-dom"
 
-function Question({inputValue, question, onAnswered}){
+function Question({question,handleSubmitAnswer}){
 
     const history=useHistory();
     const [timeRemaining,setTimeRemaining]=useState(15)
+    const [inputValue,setInputValue]=useState("")
 
     useEffect(()=>{
         
@@ -26,8 +27,14 @@ function Question({inputValue, question, onAnswered}){
       
       },[timeRemaining])
 
-      function handleSubmitAnswer(event){
-          event.preventDefault()
+    
+      function onAnswered(event){
+        setInputValue(event.target.value)
+      }
+
+      function handleSubmit(event){
+        event.preventDefault()
+        handleSubmitAnswer(inputValue,question.value,question.correctAnswers)
       }
    
 
@@ -36,7 +43,7 @@ function Question({inputValue, question, onAnswered}){
         <h1>{timeRemaining}</h1>
             
         <h1>{question.prompt}</h1>
-        <form onSubmit={handleSubmitAnswer}>
+        <form onSubmit={handleSubmit}>
             <input placeholder="type answer here" value={inputValue} onChange={onAnswered}></input>
             <button>Submit</button>
 

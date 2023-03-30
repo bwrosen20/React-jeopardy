@@ -13,7 +13,6 @@ function App(){
     const [team1Points,setTeam1Points]=useState(0)
     const [team2Points,setTeam2Points]=useState(0)
     const [teamCounter,setTeamCounter]=useState(true)
-    const [inputValue,setInputValue]=useState("")
     const history=useHistory();
 
 useEffect(()=>{
@@ -24,12 +23,12 @@ useEffect(()=>{
     
 },[])
 
-function onAnswered(value){
-    return value
+function handleSubmitAnswer(value,points,correctArray){
+    console.log(value)
+    console.log(points)
+    console.log(correctArray)
+    
 }
-
-
-
 
 function handleClick(event){
     
@@ -53,7 +52,7 @@ return (
             <Board teamCounter={teamCounter} handleClick={handleClick} team1Points={team1Points} team2Points={team2Points}/>
         </Route>
         <Route exact path="/question">
-            <PickAQuestion inputValue={inputValue} questionArray={currentArray} onAnswered={onAnswered}/>
+            <PickAQuestion handleSubmitAnswer={handleSubmitAnswer} questionArray={currentArray}/>
         </Route>
         <Route exact path="/">
             <Rules />
