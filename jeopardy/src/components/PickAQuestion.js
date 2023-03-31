@@ -1,7 +1,7 @@
 import React from "react"
 import Question from "./Question"
 
-function PickAQuestion({handleSubmitAnswer, questionArray}){
+function PickAQuestion({activateSteal,handleSubmitAnswer, questionArray}){
 
     
 
@@ -14,7 +14,7 @@ function PickAQuestion({handleSubmitAnswer, questionArray}){
 
     return <div>
 
-              <Question handleSubmitAnswer={handleSubmitAnswer} question={questionToAsk} />  
+              <Question activateSteal={activateSteal} handleSubmitAnswer={handleSubmitAnswer} question={questionToAsk} />  
             
     </div>
 

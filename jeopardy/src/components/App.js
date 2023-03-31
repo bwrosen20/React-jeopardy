@@ -17,6 +17,7 @@ function App(){
     const [teamCounter,setTeamCounter]=useState(true)
     const [correctAnswer,setCorrectAnswer]=useState("")
     const [wereTheyRight,setWereTheyRight]=useState(false)
+    const [steal,activateSteal]=useState(false)
     const history=useHistory()
 
 useEffect(()=>{
@@ -26,6 +27,10 @@ useEffect(()=>{
 
     
 },[])
+
+function activateTheSteal(){
+    activateSteal(true)
+}
 
 function handleSubmitAnswer(value,points,correctArray){
     if ((correctArray).includes((value).toLowerCase())){
@@ -39,6 +44,7 @@ function handleSubmitAnswer(value,points,correctArray){
     }
     else{
         setWereTheyRight(false)
+        activateSteal(true)
     }
 
     setTeamCounter(!teamCounter)
@@ -68,16 +74,16 @@ return (
             <NewQuestionForm />
         </Route>
         <Route exact path="/steal">
-            <Steal />
+            <Steal steal={steal}/>
         </Route>
         <Route exact path="/theanswer">
-            <TheAnswer wereTheyRight={wereTheyRight} correctAnswer={correctAnswer} teamCounter={teamCounter}/>
+            <TheAnswer steal={steal} wereTheyRight={wereTheyRight} correctAnswer={correctAnswer} teamCounter={teamCounter}/>
         </Route>
         <Route exact path="/board">
             <Board teamCounter={teamCounter} handleClick={handleClick} team1Points={team1Points} team2Points={team2Points}/>
         </Route>
         <Route exact path="/question">
-            <PickAQuestion handleSubmitAnswer={handleSubmitAnswer} questionArray={currentArray}/>
+            <PickAQuestion activateSteal={activateTheSteal} handleSubmitAnswer={handleSubmitAnswer} questionArray={currentArray}/>
         </Route>
         <Route exact path="/">
             <Rules />
