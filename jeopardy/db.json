@@ -261,6 +261,87 @@
             "correctAnswers":["and what do you want?","and what do you want"],
             "className":"tv1000"
             
+        },
+        {
+            "id":31,
+            "category":"geography",
+            "value":200,
+            "prompt":"What is defined as a piece of land projecting out into a body of water?",
+            "correctAnswers":["peninsula","penninsula","peninsulla"],
+            "className":"geography200"
+            
+        },
+        {
+            "id":32,
+            "category":"geography",
+            "value":200,
+            "prompt":"What is the second largest city in New York State?",
+            "correctAnswers":["buffalo"],
+            "className":"geography200"
+            
+        },
+        {
+            "id":33,
+            "category":"geography",
+            "value":200,
+            "prompt":"What is the capital of Texas?",
+            "correctAnswers":["austin"],
+            "className":"geography200"
+            
+        },
+        {
+            "id":34,
+            "category":"geography",
+            "value":400,
+            "prompt":"What is the capital of Iowa?",
+            "correctAnswers":["des moines"],
+            "className":"geography400"
+            
+        },
+        {
+            "id":35,
+            "category":"geography",
+            "value":400,
+            "prompt":"What is defined as an area of relatively level high ground?",
+            "correctAnswers":["plateau","plato","plateu"],
+            "className":"geography400"
+            
+        },
+        {
+            "id":36,
+            "category":"geography",
+            "value":400,
+            "prompt":"The two largest rivers in China are the Yangtze and the _____",
+            "correctAnswers":["yellow","yellow river"],
+            "className":"geography400"
+            
+        },
+        {
+            "id":37,
+            "category":"geography",
+            "value":600,
+            "prompt":"What is the capital of Minnesota?",
+            "correctAnswers":["st. paul", "st paul", "saint paul"],
+            "className":"geography600"
+            
+        },
+        {
+            "id":38,
+            "category":"geography",
+            "value":600,
+            "prompt":"What is the name of our sun?",
+            "correctAnswers":["sol"],
+            "className":"geography600"
+            
+        },
+        {
+            "id":38,
+            "category":"geography",
+            "value":600,
+            "prompt":"What is the capital of Minnesota?",
+            "correctAnswers":["st. paul", "st paul", "saint paul"],
+            "className":"geography600"
+            
         }
         
         

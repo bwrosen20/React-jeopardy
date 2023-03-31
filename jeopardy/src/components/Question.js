@@ -10,7 +10,7 @@ function Question({question,handleSubmitAnswer}){
     useEffect(()=>{
         
         if (timeRemaining===0){
-          history.push("/board")
+          history.push("/theanswer")
         }
         
         const timer=setTimeout(()=>{

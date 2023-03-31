@@ -5,6 +5,7 @@ import Board from "./Board"
 import Rules from "./Rules"
 import NewQuestionForm from "./NewQuestionForm"
 import PickAQuestion from "./PickAQuestion"
+import TheAnswer from "./TheAnswer"
 
 function App(){
 
@@ -34,7 +35,7 @@ function handleSubmitAnswer(value,points,correctArray){
     }
 
     setTeamCounter(!teamCounter)
-    history.push("/board")
+    history.push("/theanswer")
     
     }
     
@@ -57,6 +58,9 @@ return (
     <Switch>
         <Route exact path="/new-question">
             <NewQuestionForm />
+        </Route>
+        <Route exact path="/theanswer">
+            <TheAnswer />
         </Route>
         <Route exact path="/board">
             <Board teamCounter={teamCounter} handleClick={handleClick} team1Points={team1Points} team2Points={team2Points}/>
