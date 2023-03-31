@@ -1,17 +1,15 @@
 import React, {useState, useEffect} from "react"
-import {useHistory} from "react-router-dom"
 
-function Question({activateSteal,question,handleSubmitAnswer}){
+function Question({question,handleSubmitAnswer}){
 
-    const history=useHistory();
-    const [timeRemaining,setTimeRemaining]=useState(15)
+
+    const [timeRemaining,setTimeRemaining]=useState(7)
     const [inputValue,setInputValue]=useState("")
 
     useEffect(()=>{
         
         if (timeRemaining===0){
-          activateSteal()
-          history.push("/steal")
+          handleSubmitAnswer("brian","rosen","rocks",question.id,false)
         }
         
         const timer=setTimeout(()=>{
@@ -35,7 +33,7 @@ function Question({activateSteal,question,handleSubmitAnswer}){
 
       function handleSubmit(event){
         event.preventDefault()
-        handleSubmitAnswer(inputValue,question.value,question.correctAnswers)
+        handleSubmitAnswer(inputValue,question.value,question.correctAnswers,question.id,false)
       }
    
 

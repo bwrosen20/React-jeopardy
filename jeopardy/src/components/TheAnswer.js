@@ -3,7 +3,7 @@ import {useHistory} from "react-router-dom"
 
 function TheAnswer({steal,correctAnswer,wereTheyRight}){
 
-    const [timeRemaining,setTimeRemaining]=useState(3)
+    const [timeRemaining,setTimeRemaining]=useState(2)
     const history=useHistory();
     
 
@@ -11,8 +11,11 @@ function TheAnswer({steal,correctAnswer,wereTheyRight}){
    
     useEffect(()=>{
         
-        if (timeRemaining===0){
-          history.push("/board")
+        if (timeRemaining===0 && steal===false){
+          history.push("/Board")
+        }
+        if (timeRemaining===0 && steal){
+          history.push("/Steal")
         }
         
         const timer=setTimeout(()=>{

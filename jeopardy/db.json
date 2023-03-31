@@ -335,7 +335,7 @@
             
         },
         {
-            "id":38,
+            "id":39,
             "category":"geography",
             "value":600,
             "prompt":"What is the capital of Minnesota?",
@@ -343,6 +343,336 @@
             "className":"geography600"
             
         }
+        ,
+        {
+            "id":40,
+            "category":"geography",
+            "value":800,
+            "prompt":"What is the largest moon in the solar system?",
+            "correctAnswers":["titan"],
+            "className":"geography800"
+            
+        } ,
+        {
+            "id":41,
+            "category":"geography",
+            "value":800,
+            "prompt":"What is the capital of Hungary?",
+            "correctAnswers":["Budapest"],
+            "className":"geography800"
+            
+        }
+        ,
+        {
+            "id":42,
+            "category":"geography",
+            "value":800,
+            "prompt":"Carbon performs what covalent bond to make diamond?",
+            "correctAnswers":["network"],
+            "className":"geography800"
+            
+        } ,
+        {
+            "id":43,
+            "category":"geography",
+            "value":1000,
+            "prompt":"What is the name of our sun?",
+            "correctAnswers":["sol"],
+            "className":"geography1000"
+            
+        },
+        {
+            "id":44,
+            "category":"geography",
+            "value":1000,
+            "prompt":"What is the largest moon of Jupiter?",
+            "correctAnswers":["ganymede","ganamede","ganymead","ganamead"],
+            "className":"geography1000"
+            
+        },
+        {
+            "id":45,
+            "category":"geography",
+            "value":1000,
+            "prompt":"What cape sits at the southern tip of Africa?",
+            "correctAnswers":["the cape of good hope","good hope","cape of good hope"],
+            "className":"geography1000"
+            
+        },
+        {
+            "id":46,
+            "category":"sports",
+            "value":200,
+            "prompt":"Who was the last Yankee to wear #7?",
+            "correctAnswers":["mickey mantle","mantle","micky mantle"],
+            "className":"sports200"
+            
+        }
+        ,
+        {
+            "id":47,
+            "category":"sports",
+            "value":200,
+            "prompt":"In which professional league is the only team from Columbus Ohio?",
+            "correctAnswers":["nhl","hockey","the nhl"],
+            "className":"sports200"
+            
+        },
+        {
+            "id":48,
+            "category":"sports",
+            "value":200,
+            "prompt":"Where did the Rams play before Los Angeles?",
+            "correctAnswers":["st. louis","st louis","saint louis","st luis","st. luis"],
+            "className":"sports200"
+            
+        },
+        {
+            "id":49,
+            "category":"sports",
+            "value":400,
+            "prompt":"Name one of the four teams to have never been to the SuperBowl",
+            "correctAnswers":["Cleveland Browns, Jacksonville Jaguars, Detroit Lions, Houston Texans","browns","texans","jaguars","jags","lions","detroit lions","cleveland browns","jacksonville jaguars","houston texans"],
+            "className":"sports400"
+            
+        },
+        {
+            "id":50,
+            "category":"sports",
+            "value":400,
+            "prompt":"What is it called when a soccer player is in the attacking half and closer to the opposing team's goal-line than both the ball and the second-last opponent?",
+            "correctAnswers":["offsides","offside","off side","off sides","off-side","off-sides"],
+            "className":"sports400"
+            
+        },
+        {
+            "id":51,
+            "category":"sports",
+            "value":400,
+            "prompt":"What is it called when a golfer wins all 4 majors in a year?",
+            "correctAnswers":["grand slam","grand-slam"],
+            "className":"sports400"
+            
+        },
+        {
+            "id":52,
+            "category":"sports",
+            "value":600,
+            "prompt":"Who is the only MLB player to win both rookie of the year and MVP in the same year?",
+            "correctAnswers":["ichiro","ichiro suzuki"],
+            "className":"sports600"
+            
+        },
+        {
+            "id":53,
+            "category":"sports",
+            "value":600,
+            "prompt":"Who won the World Series MVP in 2016?",
+            "correctAnswers":["ben zobrist","zobrist"],
+            "className":"sports600"
+            
+        },
+        {
+            "id":54,
+            "category":"sports",
+            "value":600,
+            "prompt":"There are 7 ways to get on base. Walk, hit, hpb, dropped 3rd strike, catcher's interference, fielder's choice and _______",
+            "correctAnswers":["an error","error"],
+            "className":"sports600"
+            
+        },
+        {
+            "id":55,
+            "category":"sports",
+            "value":800,
+            "prompt":"Who is currently in 2nd place all time for passing yards?",
+            "correctAnswers":["drew brees","brees","drew brease","brease"],
+            "className":"sports800"
+            
+        },
+        {
+            "id":56,
+            "category":"sports",
+            "value":800,
+            "prompt":"Which team drafted Luka Doncic?",
+            "correctAnswers":["atlanta hawks","atlanta","hawks"],
+            "className":"sports800"
+            
+        },
+        {
+            "id":57,
+            "category":"sports",
+            "value":800,
+            "prompt":"Who was the shooting guard on the famous \"bad boys\" Pistons?",
+            "correctAnswers":["joe dumars","dumars"],
+            "className":"sports800"
+            
+        },
+        {
+            "id":58,
+            "category":"sports",
+            "value":1000,
+            "prompt":"Steph Curry is the current ACTIVE 3 point leader. Who is in second?",
+            "correctAnswers":["james harden","harden"],
+            "className":"sports1000"
+            
+        },
+        {
+            "id":59,
+            "category":"sports",
+            "value":1000,
+            "prompt":"In which year was the last MLB triple crown awarded?",
+            "correctAnswers":["2012"],
+            "className":"sports1000"
+            
+        },
+        {
+            "id":60,
+            "category":"sports",
+            "value":1000,
+            "prompt":"Yadier Molina won the NL gold glove every year from 2008-2015. Who won in 2016?",
+            "correctAnswers":["buster posey","posey","buster"],
+            "className":"sports1000"
+            
+        },
+        {
+            "id":61,
+            "category":"books",
+            "value":200,
+            "prompt":"Harry Potter and the Order of the Phoenix is which number in the series?",
+            "correctAnswers":["5","five"],
+            "className":"books200"
+            
+        },
+        {
+            "id":62,
+            "category":"books",
+            "value":200,
+            "prompt":"In Percy Jackson and the Olympians, which god/goddess is Annabeth the daughter of?",
+            "correctAnswers":["athena"],
+            "className":"books200"
+            
+        },
+        {
+            "id":63,
+            "category":"books",
+            "value":200,
+            "prompt":"In Romeo and Juliet, what is Romeo's last name?",
+            "correctAnswers":["montague","montagyu","montagu"],
+            "className":"books200"
+            
+        },
+        {
+            "id":64,
+            "category":"books",
+            "value":400,
+            "prompt":"Complete the title: The Seven _____ of Evelyn Hugo, by Taylor Jenkins Reid",
+            "correctAnswers":["husbands"],
+            "className":"books400"
+            
+        },
+        {
+            "id":65,
+            "category":"books",
+            "value":400,
+            "prompt":"In Bridge to Terabithia, Leslie is killed on what?",
+            "correctAnswers":["tire swing","a tire swing","a tire"],
+            "className":"books400"
+            
+        },
+        {
+            "id":66,
+            "category":"books",
+            "value":400,
+            "prompt":"Complete the title: The Seven _____ of Evelyn Hugo, by Taylor Jenkins Reid",
+            "correctAnswers":["husbands"],
+            "className":"books400"
+            
+        },
+        {
+            "id":67,
+            "category":"books",
+            "value":600,
+            "prompt":"Finish the title:Good Omens: The Nice and ______ prophecies of Agnes Nutter, by Terry Pratchett",
+            "correctAnswers":["accurate","acurate"],
+            "className":"books600"
+            
+        },
+        {
+            "id":68,
+            "category":"books",
+            "value":600,
+            "prompt":"What is the name of the main character in Douglas Adams' The Hitchhickers Guide to the Galaxy?",
+            "correctAnswers":["arthur dent","arther dent","arthur","dent"],
+            "className":"books600"
+            
+        },
+        {
+            "id":69,
+            "category":"books",
+            "value":600,
+            "prompt":"In Ready Player One, by Ernest Cline, what is the name of Samantha Cook's avatar?",
+            "correctAnswers":["artemis"],
+            "className":"books600"
+            
+        },
+        {
+            "id":70,
+            "category":"books",
+            "value":800,
+            "prompt":"In Harry Potter, what is the maiden name of Severus Snape's mother?",
+            "correctAnswers":["prince"],
+            "className":"books800"
+            
+        },
+        {
+            "id":71,
+            "category":"books",
+            "value":800,
+            "prompt":"In Harry Potter, what is the maiden name of Severus Snape's mother?",
+            "correctAnswers":["prince"],
+            "className":"books800"
+            
+        },
+        {
+            "id":72,
+            "category":"books",
+            "value":800,
+            "prompt":"In Project Hail Mary, by Andy Weir, what was responsible for the death of Rocky's shipmates?",
+            "correctAnswers":["radiation"],
+            "className":"books800"
+            
+        },
+        {
+            "id":73,
+            "category":"books",
+            "value":1000,
+            "prompt":"Who says the last words in a Midsummer night's dream?",
+            "correctAnswers":["puck"],
+            "className":"books1000"
+            
+        },
+        {
+            "id":74,
+            "category":"books",
+            "value":1000,
+            "prompt":"What is the name of Barty Crouch's house elf in Harry Potter and the Goblet of Fire?",
+            "correctAnswers":["winky"],
+            "className":"books1000"
+            
+        },
+        {
+            "id":75,
+            "category":"books",
+            "value":1000,
+            "prompt":"Who is the main character in James Patterson's 15 bok NYC murder mystery saga?",
+            "correctAnswers":["michael bennett","bennett","bennet","benet"],
+            "className":"books1000"
+            
+        }
+        
+        
+        
         
         
 

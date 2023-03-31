@@ -18,6 +18,7 @@ function App(){
     const [correctAnswer,setCorrectAnswer]=useState("")
     const [wereTheyRight,setWereTheyRight]=useState(false)
     const [steal,activateSteal]=useState(false)
+    const [stealQuestion,setStealQuestion]=useState([])
     const history=useHistory()
 
 useEffect(()=>{
@@ -28,26 +29,48 @@ useEffect(()=>{
     
 },[])
 
-function activateTheSteal(){
-    activateSteal(true)
-}
-
-function handleSubmitAnswer(value,points,correctArray){
+function handleSubmitAnswer(value,points,correctArray,id,stealValue){
+    
+    
     if ((correctArray).includes((value).toLowerCase())){
+        if (teamCounter && stealValue){
+            setTeam2Points(()=>team2Points+points)
+        }
         if (teamCounter){
             setTeam1Points(()=>team1Points+points)
         }
-        else{
+        else {
             setTeam2Points(()=>team2Points+points)
         }
         setWereTheyRight(true)
+        setTeamCounter(!teamCounter)
+        activateSteal(false)
     }
     else{
+
+       if (steal){
+        setWereTheyRight(false)
+        activateSteal(false)
+        setTeamCounter(!teamCounter)
+       }
+       
+       
+       
+       else {
+        setStealQuestion(questionList.find((question)=>(
+            question.id===id
+        )))
+        console.log(stealQuestion)
         setWereTheyRight(false)
         activateSteal(true)
-    }
+        if (stealValue){
+            setTeamCounter(!teamCounter)
+        }
+            }
 
-    setTeamCounter(!teamCounter)
+        }
+
+    
     setCorrectAnswer(correctArray[0])
     history.push("/theanswer")
     
@@ -74,7 +97,7 @@ return (
             <NewQuestionForm />
         </Route>
         <Route exact path="/steal">
-            <Steal steal={steal}/>
+            <Steal steal={steal} question={stealQuestion} handleSubmitAnswer={handleSubmitAnswer}/>
         </Route>
         <Route exact path="/theanswer">
             <TheAnswer steal={steal} wereTheyRight={wereTheyRight} correctAnswer={correctAnswer} teamCounter={teamCounter}/>
@@ -83,7 +106,7 @@ return (
             <Board teamCounter={teamCounter} handleClick={handleClick} team1Points={team1Points} team2Points={team2Points}/>
         </Route>
         <Route exact path="/question">
-            <PickAQuestion activateSteal={activateTheSteal} handleSubmitAnswer={handleSubmitAnswer} questionArray={currentArray}/>
+            <PickAQuestion handleSubmitAnswer={handleSubmitAnswer} questionArray={currentArray}/>
         </Route>
         <Route exact path="/">
             <Rules />
