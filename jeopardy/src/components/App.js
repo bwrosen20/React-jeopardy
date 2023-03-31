@@ -6,6 +6,7 @@ import Rules from "./Rules"
 import NewQuestionForm from "./NewQuestionForm"
 import PickAQuestion from "./PickAQuestion"
 import TheAnswer from "./TheAnswer"
+import Steal from "./Steal"
 
 function App(){
 
@@ -16,7 +17,7 @@ function App(){
     const [teamCounter,setTeamCounter]=useState(true)
     const [correctAnswer,setCorrectAnswer]=useState("")
     const [wereTheyRight,setWereTheyRight]=useState(false)
-    const history=useHistory();
+    const history=useHistory()
 
 useEffect(()=>{
     fetch("http://localhost:3001/questions")
@@ -65,6 +66,9 @@ return (
     <Switch>
         <Route exact path="/new-question">
             <NewQuestionForm />
+        </Route>
+        <Route exact path="/steal">
+            <Steal />
         </Route>
         <Route exact path="/theanswer">
             <TheAnswer wereTheyRight={wereTheyRight} correctAnswer={correctAnswer} teamCounter={teamCounter}/>

@@ -2,12 +2,6 @@ import React from "react"
 
 function Board({teamCounter, handleClick, team1Points,team2Points}){
 
-   
-
-
-
-
-
     return (<div>
 
         <div>
