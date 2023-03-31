@@ -1,9 +1,9 @@
 import React, {useEffect,useState} from "react"
 import {useHistory} from "react-router-dom"
 
-function TheAnswer(){
+function TheAnswer({teamCounter,correctAnswer,wereTheyRight}){
 
-    const [timeRemaining,setTimeRemaining]=useState(5)
+    const [timeRemaining,setTimeRemaining]=useState(3)
     const history=useHistory();
    
     useEffect(()=>{
@@ -29,8 +29,7 @@ function TheAnswer(){
    
    return <div>
 
-        
-      <h1>We're in the answer thing. See ya soon</h1>
+        {wereTheyRight?<h1>Correct!!</h1>:<h1>Incorrect- The right answer was {correctAnswer}</h1>}
 
     </div>
 }

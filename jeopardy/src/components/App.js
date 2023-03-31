@@ -14,6 +14,8 @@ function App(){
     const [team1Points,setTeam1Points]=useState(0)
     const [team2Points,setTeam2Points]=useState(0)
     const [teamCounter,setTeamCounter]=useState(true)
+    const [correctAnswer,setCorrectAnswer]=useState("")
+    const [wereTheyRight,setWereTheyRight]=useState(false)
     const history=useHistory();
 
 useEffect(()=>{
@@ -32,9 +34,14 @@ function handleSubmitAnswer(value,points,correctArray){
         else{
             setTeam2Points(()=>team2Points+points)
         }
+        setWereTheyRight(true)
+    }
+    else{
+        setWereTheyRight(false)
     }
 
     setTeamCounter(!teamCounter)
+    setCorrectAnswer(correctArray[0])
     history.push("/theanswer")
     
     }
@@ -60,7 +67,7 @@ return (
             <NewQuestionForm />
         </Route>
         <Route exact path="/theanswer">
-            <TheAnswer />
+            <TheAnswer wereTheyRight={wereTheyRight} correctAnswer={correctAnswer} teamCounter={teamCounter}/>
         </Route>
         <Route exact path="/board">
             <Board teamCounter={teamCounter} handleClick={handleClick} team1Points={team1Points} team2Points={team2Points}/>
