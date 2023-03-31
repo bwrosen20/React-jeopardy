@@ -358,7 +358,7 @@
             "category":"geography",
             "value":800,
             "prompt":"What is the capital of Hungary?",
-            "correctAnswers":["Budapest"],
+            "correctAnswers":["budapest"],
             "className":"geography800"
             
         }

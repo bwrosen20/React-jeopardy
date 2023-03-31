@@ -34,12 +34,15 @@ function handleSubmitAnswer(value,points,correctArray,id,stealValue){
     
     if ((correctArray).includes((value).toLowerCase())){
         if (teamCounter && stealValue){
+            console.log("first")
             setTeam2Points(()=>team2Points+points)
         }
-        if (teamCounter){
+        else if (teamCounter || stealValue){
+            console.log("second")
             setTeam1Points(()=>team1Points+points)
         }
-        else {
+        else{
+            console.log("fourth")
             setTeam2Points(()=>team2Points+points)
         }
         setWereTheyRight(true)
@@ -48,19 +51,17 @@ function handleSubmitAnswer(value,points,correctArray,id,stealValue){
     }
     else{
 
-       if (steal){
+       if (stealValue){
         setWereTheyRight(false)
         activateSteal(false)
         setTeamCounter(!teamCounter)
        }
        
        
-       
        else {
         setStealQuestion(questionList.find((question)=>(
             question.id===id
         )))
-        console.log(stealQuestion)
         setWereTheyRight(false)
         activateSteal(true)
         if (stealValue){
