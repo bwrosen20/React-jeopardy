@@ -1,22 +1,30 @@
 import React, {useEffect,useState} from "react"
 import {useHistory} from "react-router-dom"
 
-function TheAnswer({steal,correctAnswer,wereTheyRight}){
+function TheAnswer({questionTracker, steal,correctAnswer,wereTheyRight}){
 
     const [timeRemaining,setTimeRemaining]=useState(2)
     const history=useHistory();
     
-
-    console.log(steal)
    
     useEffect(()=>{
         
-        if (timeRemaining===0 && steal===false){
-          history.push("/Board")
+      console.log(questionTracker)
+
+
+      if (timeRemaining===0){ 
+        
+        if (steal&&questionTracker.includes(1)){
+        history.push("/steal")
         }
-        if (timeRemaining===0 && steal){
-          history.push("/Steal")
+        else if (questionTracker.includes(1)){
+          history.push("/board")
         }
+
+        else{
+          history.push("/gameover")
+        }}
+       
         
         const timer=setTimeout(()=>{
       
@@ -33,7 +41,7 @@ function TheAnswer({steal,correctAnswer,wereTheyRight}){
       },[timeRemaining])
 
    
-   return <div>
+   return <div className={wereTheyRight?"rightanswer":"wronganswer"}>
 
         {wereTheyRight?<h1>Correct!!</h1>:(steal?<h1>Incorrect- Other team can steal</h1>:<h1>Incorrect- The right answer was {correctAnswer}</h1>)}
 

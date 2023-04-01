@@ -38,15 +38,20 @@ function Question({question,handleSubmitAnswer}){
    
 
     return <div>
+        <div className={((timeRemaining>5)?"greencircle":((timeRemaining>3)?"yellowcircle":"redcircle"))}>
 
-        <h1>{timeRemaining}</h1>
+        <span className="timer">{timeRemaining}</span>
+
+        </div>
+        <div className="questionscreen">
             
-        <h1>{question.prompt}</h1>
+        <h1 className="prompt">{question.prompt}</h1>
         <form onSubmit={handleSubmit}>
             <input placeholder="type answer here" value={inputValue} onChange={onAnswered}></input>
             <button>Submit</button>
 
         </form>
+        </div>
 
 
                 

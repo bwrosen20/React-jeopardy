@@ -37,16 +37,19 @@ function Steal({handleSubmitAnswer,question}){
    
 
     return <div>
-        <h1>Steal!</h1>
-        <h1>{timeRemaining}</h1>
-            
-        <h1>{question.prompt}</h1>
+        <h1 className="steal">Steal!</h1>
+        <div className={((timeRemaining>5)?"greencircle":((timeRemaining>3)?"yellowcircle":"redcircle"))}>
+        <span className="timer">{timeRemaining}</span>
+        </div>
+       
+          <div className="questionscreen">
+        <h1 className="prompt">{question.prompt}</h1>
         <form onSubmit={handleSubmit}>
             <input placeholder="type answer here" value={inputValue} onChange={onAnswered}></input>
             <button>Submit</button>
 
         </form>
-
+        </div>  
 
                 
                 

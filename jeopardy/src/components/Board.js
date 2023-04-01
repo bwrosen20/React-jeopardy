@@ -13,7 +13,7 @@ function Board({teamCounter, handleClick, team1Points,team2Points, questionTrack
     <div className="categories">
         <button className="category">Movies</button>
         <button className="category">TV</button>
-        <button className="category">Geography</button>
+        <button className="category">Geography/Science</button>
         <button className="category">Sports</button>
         <button className="category">Books</button>
 

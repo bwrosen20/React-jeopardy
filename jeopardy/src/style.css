@@ -120,3 +120,83 @@
     width:100px;
 
   }
+
+  .greencircle {
+    background: green;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size:30px;
+    text-align: center;
+    margin:auto;
+    padding:20px;
+    top:25%
+    
+}
+
+.yellowcircle {
+  background: greenyellow;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size:30px;
+  text-align: center;
+  margin:auto;
+  padding:20px;
+  top:25%
+  
+}
+.redcircle {
+  background: #f00;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size:30px;
+  text-align: center;
+  margin:auto;
+  padding:20px;
+  top:25%
+  
+}
+.timer{
+  
+  top:50%;
+  left:50%;
+}
+
+.questionscreen{
+  color:black;
+  font-size:15px;
+  padding:15px;
+  width:500px;
+  height:50px;
+  margin:auto;
+  text-align:center;
+  top:25px;
+
+}
+
+.steal{
+  color:red;
+  font-size:40px;
+  padding:15px;
+  margin:auto;
+  text-align:center;
+
+}
+
+.rightanswer{
+  font-size:20px;
+  padding:15px;
+  margin:auto;
+  text-align:center;
+  background-color:green;
+}
+
+.wronganswer{
+  font-size:20px;
+  padding:15px;
+  margin:auto;
+  text-align:center;
+  background-color:red;
+}

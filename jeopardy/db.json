@@ -240,7 +240,7 @@
             "category":"tv",
             "value":1000,
             "prompt":"In The Office, who is the main character in Toby's mystery novels?",
-            "correctAnswers":["chad Flenderman","flenderman"],
+            "correctAnswers":["chad flenderman","flenderman"],
             "className":"tv1000"
             
         },
@@ -629,8 +629,8 @@
             "id":71,
             "category":"books",
             "value":800,
-            "prompt":"In Harry Potter, what is the maiden name of Severus Snape's mother?",
-            "correctAnswers":["prince"],
+            "prompt":"What state is the main character from in 11/22/63, by Stephen King?",
+            "correctAnswers":["maine"],
             "className":"books800"
             
         },
