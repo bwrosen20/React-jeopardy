@@ -1,9 +1,10 @@
 import React from "react"
 
-function Scoreboard(){
+function Scoreboard({team1Points,team2Points}){
 
-    return <div>
-        
+    return <div className="scoreboard">
+        <span className="score">Team 1: {team1Points}</span>
+        <span className="score">Team 2: {team2Points}</span>
     </div>
 
 }

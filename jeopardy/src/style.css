@@ -3,7 +3,7 @@
 }
 
 .qcontainer {
-    margin-left:35%;
+    margin:auto;
     width:500px;
     height:300px;
     display:grid;
@@ -37,7 +37,7 @@
 }
 
 .categories{
-    margin-left:35%;
+    margin:auto;
     display:grid;
     grid-template-columns:100px 100px 100px 100px 100px ;
     grid-template-rows:100px;
@@ -69,15 +69,54 @@
     height:30px;
     left:50;
     padding:20;
-    height:100px;
+    height:30px;
     width:100%
 
   }
 
   .navOption{
     width:40px;
-    height:60px;
+    height:30px;
     padding:20px;
     text-align:center;
     margin-top:20px;
+  }
+
+  .scoreboard{
+    display: inline-block;
+    width: 500px;
+    height: 50px;
+    padding: 10px;
+    border: 2px solid black;
+    background-color: grey;
+    margin:auto;
+    margin-top:20px;
+  }
+
+  .score{
+    color:black;
+    font-size:30px;
+    padding:30px;
+    width:250px;
+    height:50px;
+    
+}
+.turncounter{
+    width: 200px;
+    height: 25px;
+    padding: 10px;
+    margin:auto;
+    margin-bottom:40px;
+  }
+  .greyquestion{
+    background-color:darkgrey;
+    border:1px solid black;
+    font-size:20px;
+    text-align:center;
+    padding:10px;
+    color:grey;
+    font-weight:bold;
+    height:60px;
+    width:100px;
+
   }

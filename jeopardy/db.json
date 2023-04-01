@@ -576,7 +576,7 @@
             "category":"books",
             "value":400,
             "prompt":"In Bridge to Terabithia, Leslie is killed on what?",
-            "correctAnswers":["tire swing","a tire swing","a tire"],
+            "correctAnswers":["tire swing","a tire swing","a tire", "tire"],
             "className":"books400"
             
         },

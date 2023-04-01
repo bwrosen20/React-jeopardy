@@ -20,6 +20,9 @@ function App(){
     const [steal,activateSteal]=useState(false)
     const [stealQuestion,setStealQuestion]=useState([])
     const history=useHistory()
+    const [questionTracker,setQuestionTracker]=useState([1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25])
+  
+     console.log(questionTracker)
 
 useEffect(()=>{
     fetch("http://localhost:3001/questions")
@@ -28,6 +31,8 @@ useEffect(()=>{
 
     
 },[])
+
+
 
 function handleSubmitAnswer(value,points,correctArray,id,stealValue){
     
@@ -80,8 +85,15 @@ function handleSubmitAnswer(value,points,correctArray,id,stealValue){
 
 
 function handleClick(event){
-    
-    console.log(event.target)
+
+    const number=parseInt(event.target.value)
+
+   setQuestionTracker(questionTracker.map((question)=>(
+    question===number?0:question
+   )))
+
+    console.log(questionTracker)
+
     setCurrentArray(questionList.filter((question)=>(
         question.className===event.target.id
     )))
@@ -104,7 +116,7 @@ return (
             <TheAnswer steal={steal} wereTheyRight={wereTheyRight} correctAnswer={correctAnswer} teamCounter={teamCounter}/>
         </Route>
         <Route exact path="/board">
-            <Board teamCounter={teamCounter} handleClick={handleClick} team1Points={team1Points} team2Points={team2Points}/>
+            <Board questionTracker={questionTracker} teamCounter={teamCounter} handleClick={handleClick} team1Points={team1Points} team2Points={team2Points}/>
         </Route>
         <Route exact path="/question">
             <PickAQuestion handleSubmitAnswer={handleSubmitAnswer} questionArray={currentArray}/>

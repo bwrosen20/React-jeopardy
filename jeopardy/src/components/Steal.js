@@ -8,7 +8,7 @@ function Steal({handleSubmitAnswer,question}){
     useEffect(()=>{
         
         if (timeRemaining===0){
-          handleSubmitAnswer("brian","rosen","rocks",question.id,true)
+          handleSubmitAnswer("brian","rosen",question.correctAnswers,question.id,true)
         }
         
         const timer=setTimeout(()=>{
