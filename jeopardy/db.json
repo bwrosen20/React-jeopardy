@@ -886,9 +886,57 @@
     },
     {
       "prompt": "In Spongebob Squarepants, Patrick writes the worst song ever written- finish the lyrics: \"This song is over, except for this line. You win this round _____\"",
-      "correctAnswers": ["broccoli","brocolli","brocoli"],
+      "correctAnswers": [
+        "broccoli",
+        "brocolli",
+        "brocoli"
+      ],
       "className": "tv800",
       "id": 80
+    },
+    {
+      "prompt": "Who is the all time mlb saves leader?",
+      "correctAnswers": [
+        "mariano rivera",
+        "mo",
+        "mariano",
+        "rivera"
+      ],
+      "className": "sports400",
+      "id": 81
+    },
+    {
+      "prompt": "Who was the cover athlete of Madden 12?",
+      "correctAnswers": [
+        "peyton hillis",
+        "hillis",
+        "payton hillis"
+      ],
+      "className": "sports800",
+      "id": 82
+    },
+    {
+      "prompt": "In The Martian, by Andy Weir, what crop does Mark Watney grow using human manure?",
+      "correctAnswers": [
+        "potatoes",
+        "potato",
+        "potatos",
+        "a potato"
+      ],
+      "className": "books400",
+      "id": 83
+    },
+    {
+      "prompt": "In which ancient river valley was indoor plumbing invented?",
+      "correctAnswers": [
+        "the indus river",
+        "indus",
+        "indus river",
+        "indus river valley",
+        "the indus river valley"
+      ],
+      "className": "geography1000",
+      "id": 84
     }
   ]
 }
