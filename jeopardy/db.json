@@ -273,7 +273,7 @@
       "id": 25,
       "category": "tv",
       "value": 800,
-      "prompt": "A member of a showmance won season 11 of big brother. Who was the other person?",
+      "prompt": "A member of a showmance won season 11 of big brother. Who was their partner?",
       "correctAnswers": [
         "jeff"
       ],
@@ -427,11 +427,11 @@
       "id": 39,
       "category": "geography",
       "value": 600,
-      "prompt": "What is the capital of Minnesota?",
+      "prompt": "What is the chemical formula for ammonia?",
       "correctAnswers": [
-        "st. paul",
-        "st paul",
-        "saint paul"
+        "nh3",
+        "nh-3",
+        "n-h-3"
       ],
       "className": "geography600"
     },
@@ -469,9 +469,9 @@
       "id": 43,
       "category": "geography",
       "value": 1000,
-      "prompt": "What is the name of our sun?",
+      "prompt": "What is the second of the noble gases?",
       "correctAnswers": [
-        "sol"
+        "neon"
       ],
       "className": "geography1000"
     },
@@ -867,12 +867,14 @@
         "the nile river"
       ],
       "className": "geography200",
+      "value": 200,
       "id": 77
     },
     {
       "prompt": "In the original Pokemon, which of Ash's pokemon refused to obey him?",
       "correctAnswers": "charizard",
       "className": "tv400",
+      "value": 400,
       "id": 78
     },
     {
@@ -882,6 +884,7 @@
         "princess mindy"
       ],
       "className": "movies800",
+      "value": 800,
       "id": 79
     },
     {
@@ -892,6 +895,7 @@
         "brocoli"
       ],
       "className": "tv800",
+      "value": 800,
       "id": 80
     },
     {
@@ -903,6 +907,7 @@
         "rivera"
       ],
       "className": "sports400",
+      "value": 400,
       "id": 81
     },
     {
@@ -913,6 +918,7 @@
         "payton hillis"
       ],
       "className": "sports800",
+      "value": 800,
       "id": 82
     },
     {
@@ -924,6 +930,7 @@
         "a potato"
       ],
       "className": "books400",
+      "value": 400,
       "id": 83
     },
     {
@@ -936,7 +943,15 @@
         "the indus river valley"
       ],
       "className": "geography1000",
+      "value": 1000,
       "id": 84
+    },
+    {
+      "prompt": "How many minutes is a standard hockey penalty?",
+      "correctAnswers": ["2","two","two minutes","2 minutes"],
+      "className": "sports200",
+      "value": 200,
+      "id": 85
     }
   ]
 }
