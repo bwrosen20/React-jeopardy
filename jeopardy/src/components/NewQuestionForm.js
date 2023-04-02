@@ -49,6 +49,7 @@ function NewQuestionForm(){
         <label>
           Prompt:
           <input
+            className="forminput"
             type="text"
             name="prompt"
             value={formData.prompt}

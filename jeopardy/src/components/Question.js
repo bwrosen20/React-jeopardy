@@ -3,7 +3,7 @@ import React, {useState, useEffect} from "react"
 function Question({question,handleSubmitAnswer}){
 
 
-    const [timeRemaining,setTimeRemaining]=useState(7)
+    const [timeRemaining,setTimeRemaining]=useState(15)
     const [inputValue,setInputValue]=useState("")
 
     useEffect(()=>{

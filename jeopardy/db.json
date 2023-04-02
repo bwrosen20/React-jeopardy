@@ -853,9 +853,42 @@
       "value": 1000,
       "prompt": "In Yugioh, what is considered Joey's best card at the start of the battle city tournament?",
       "correctAnswers": [
-       "time wizard","the time wizard"
+        "time wizard",
+        "the time wizard"
       ],
       "className": "tv1000"
+    },
+    {
+      "prompt": "What is the longest river in the world?",
+      "correctAnswers": [
+        "nile",
+        "the nile",
+        "nile river",
+        "the nile river"
+      ],
+      "className": "geography200",
+      "id": 77
+    },
+    {
+      "prompt": "In the original Pokemon, which of Ash's pokemon refused to obey him?",
+      "correctAnswers": "charizard",
+      "className": "tv400",
+      "id": 78
+    },
+    {
+      "prompt": "In the Spongebob Squarepants movie, what is the name of King Titan's daughter/the Sea Princess?",
+      "correctAnswers": [
+        "mindy",
+        "princess mindy"
+      ],
+      "className": "movies800",
+      "id": 79
+    },
+    {
+      "prompt": "In Spongebob Squarepants, Patrick writes the worst song ever written- finish the lyrics: \"This song is over, except for this line. You win this round _____\"",
+      "correctAnswers": ["broccoli","brocolli","brocoli"],
+      "className": "tv800",
+      "id": 80
     }
   ]
 }

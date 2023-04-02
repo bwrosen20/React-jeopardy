@@ -2,7 +2,7 @@ import React, {useState,useEffect} from "react"
 
 function Steal({handleSubmitAnswer,question}){
 
-    const [timeRemaining,setTimeRemaining]=useState(7)
+    const [timeRemaining,setTimeRemaining]=useState(10)
     const [inputValue,setInputValue]=useState("")
 
     useEffect(()=>{
