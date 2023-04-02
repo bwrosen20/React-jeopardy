@@ -948,10 +948,22 @@
     },
     {
       "prompt": "How many minutes is a standard hockey penalty?",
-      "correctAnswers": ["2","two","two minutes","2 minutes"],
+      "correctAnswers": [
+        "2",
+        "two",
+        "two minutes",
+        "2 minutes"
+      ],
       "className": "sports200",
       "value": 200,
       "id": 85
+    },
+    {
+      "prompt": "What is the scientific name of the closest star to Earth?",
+      "correctAnswers": "sol",
+      "className": "geography600",
+      "value": 600,
+      "id": 86
     }
   ]
 }

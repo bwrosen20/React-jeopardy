@@ -45,7 +45,7 @@ function Steal({handleSubmitAnswer,question}){
           <div className="questionscreen">
         <h1 className="prompt">{question.prompt}</h1>
         <form onSubmit={handleSubmit}>
-            <input placeholder="type answer here" value={inputValue} onChange={onAnswered}></input>
+            <input autoFocus placeholder="type answer here" value={inputValue} onChange={onAnswered}></input>
             <button>Submit</button>
 
         </form>
