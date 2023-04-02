@@ -6,18 +6,21 @@ function TheAnswer({questionTracker, steal,correctAnswer,wereTheyRight}){
     const [timeRemaining,setTimeRemaining]=useState(2)
     const history=useHistory();
     
+    const gameEnder=questionTracker.find((question)=>(
+      question>1
+    ))
+
+    console.log(gameEnder)
    
     useEffect(()=>{
-        
-      console.log(questionTracker)
 
 
       if (timeRemaining===0){ 
         
-        if (steal&&questionTracker.includes(1)){
+        if (steal && gameEnder){
         history.push("/steal")
         }
-        else if (questionTracker.includes(1)){
+        else if (gameEnder){
           history.push("/board")
         }
 

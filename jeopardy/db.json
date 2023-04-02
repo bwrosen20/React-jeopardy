@@ -1,681 +1,861 @@
 {
-    "questions":[
-        {
-            "id":1,
-            "category":"movies",
-            "value":200,
-            "prompt":"Which team's jersey does Happy Gilmore wear to his first tournament?",
-            "correctAnswers":["boston bruins","bruins"],
-            "className":"movies200"
-        },
-        {
-            "id":2,
-            "category":"movies",
-            "value":200,
-            "prompt":"What is Morgan Freeman's character's name in The Dark Knight?",
-            "correctAnswers":["lucius fox","lucius","fox"],
-            "className":"movies200"
-        },
-        {
-            "id":3,
-            "category":"movies",
-            "value":200,
-            "prompt":"Complete the quote: \"If you build it, ________\"?",
-            "correctAnswers":["nerds will come","they will come"],
-            "className":"movies200"
-        },
-        {
-            "id":4,
-            "category":"movies",
-            "value":400,
-            "prompt":"What was Stanley's last name in the movies Holes?",
-            "correctAnswers":["yelnats"],
-            "className":"movies400"
-        },
-        {
-            "id":5,
-            "category":"movies",
-            "value":400,
-            "prompt":"Who signed Brennan's samurai sword in Step Brothers?",
-            "correctAnswers":["randy jackson"],
-            "className":"movies400"
-        },
-        {
-            "id":6,
-            "category":"movies",
-            "value":400,
-            "prompt":"What tool does Andy Dufrene use to tunnel out of prison?",
-            "correctAnswers":["spoon","a spoon"],
-            "className":"movies400"
-        },
-        {
-            "id":7,
-            "category":"movies",
-            "value":600,
-            "prompt":"Which actor narrates the other guys?",
-            "correctAnswers":["ice-t","ice t"],
-            "className":"movies600"
-        },
-        {
-            "id":8,
-            "category":"movies",
-            "value":600,
-            "prompt":"What state do the Simpsons run away to in The Simpsons Movie?",
-            "correctAnswers":["alaska"],
-            "className":"movies600"
-        },
-        {
-            "id":9,
-            "category":"movies",
-            "value":600,
-            "prompt":"What is Jack Black's character's full name in School of Rock?",
-            "correctAnswers":["dewey finn","dewey fin"],
-            "className":"movies600"
-            
-        },
-        {
-            "id":10,
-            "category":"movies",
-            "value":800,
-            "prompt":"What is the name of the opening song from South Park: Bigger,Longer and Uncut?",
-            "correctAnswers":["mountain town"],
-            "className":"movies800"
-            
-        },
-        {
-            "id":11,
-            "category":"movies",
-            "value":800,
-            "prompt":"Which model of car did Ralph Maccio's charactere in My Cousin Vinny drive?",
-            "correctAnswers":["buick skylark", "skylark"],
-            "className":"movies800"
-            
-        },
-        {
-            "id":12,
-            "category":"movies",
-            "value":800,
-            "prompt":"What was the first song sung by Sophie in Mamma Mia?",
-            "correctAnswers":["honey honey","honey, honey", "honey-honey"],
-            "className":"movies800"
-            
-        },
-        {
-            "id":13,
-            "category":"movies",
-            "value":1000,
-            "prompt":"What was the first infinity stone that Thanos was able to collect?",
-            "correctAnswers":["power","the power stone","power stone"],
-            "className":"movies1000"
-            
-        },
-        {
-            "id":14,
-            "category":"movies",
-            "value":1000,
-            "prompt":"What is the first name of Asthon Kutcher's character in No Strings Attached?",
-            "correctAnswers":["adam"],
-            "className":"movies1000"
-            
-        },
-        {
-            "id":15,
-            "category":"movies",
-            "value":1000,
-            "prompt":"In The Incredibles, who is the hero that Mr. Incredible finds dead in a cave?",
-            "correctAnswers":["gazerbeam","gazerbeam","gaserbeam","gaserbeem"],
-            "className":"movies1000"
-            
-        },
-        {
-            "id":16,
-            "category":"tv",
-            "value":200,
-            "prompt":"Finish this list of Friends: Joey, Phoebe, Rachel, Ross, Monica, ____",
-            "correctAnswers":["chandler"],
-            "className":"tv200"
-            
-        },
-        {
-            "id":17,
-            "category":"tv",
-            "value":200,
-            "prompt":"What is the name of Phineas and Ferb's older sister",
-            "correctAnswers":["candace","candice"],
-            "className":"tv200"
-            
-        },
-        {
-            "id":18,
-            "category":"tv",
-            "value":200,
-            "prompt":"Who is the oldest of Ned Stark's children?",
-            "correctAnswers":["robb","robb stark","rob stark","rob"],
-            "className":"tv200"
-            
-        },
-        {
-            "id":19,
-            "category":"tv",
-            "value":400,
-            "prompt":"Who created Community?",
-            "correctAnswers":["dan harmon","harmon","harmin","dan harmin"],
-            "className":"tv400"
-            
-        },
-        {
-            "id":20,
-            "category":"tv",
-            "value":400,
-            "prompt":"Who is the voice of Spongebob Squarepants?",
-            "correctAnswers":["tom kenny","kenny"],
-            "className":"tv400"
-            
-        },
-        {
-            "id":21,
-            "category":"tv",
-            "value":400,
-            "prompt":"There are two Jewish kids in South Park. One is named Kyle. What is the other's name?",
-            "correctAnswers":["ike"],
-            "className":"tv400"
-            
-        },
-        {
-            "id":22,
-            "category":"tv",
-            "value":600,
-            "prompt":"In Friends, what do Chandler and Monica name their son?",
-            "correctAnswers":["jack","jack bing"],
-            "className":"tv600"
-            
-        },
-        {
-            "id":23,
-            "category":"tv",
-            "value":600,
-            "prompt":"What was the name of the song that Andy Dwyer wrote for lil' Sebastian?",
-            "correctAnswers":["5000 candles in the wind","five thousand candles in the wind","five-thousand candles in the wind"],
-            "className":"tv600"
-            
-        },
-        {
-            "id":24,
-            "category":"tv",
-            "value":600,
-            "prompt":"Who is the oldest of Ned Stark's children?",
-            "correctAnswers":["robb","robb stark","rob stark","rob"],
-            "className":"tv600"
-            
-        },
-        {
-            "id":25,
-            "category":"tv",
-            "value":800,
-            "prompt":"A member of a showmance won season 11 of big brother. Who was the other person?",
-            "correctAnswers":["jeff"],
-            "className":"tv800"
-            
-        },
-        {
-            "id":26,
-            "category":"tv",
-            "value":800,
-            "prompt":"In Ted Lasso, what number does Jaime Tartt wear?",
-            "correctAnswers":["9","nine"],
-            "className":"tv800"
-            
-        },
-        {
-            "id":27,
-            "category":"tv",
-            "value":800,
-            "prompt":"In Community, who is the gang trying to chear up the first time they played Dungeons and Dragons?",
-            "correctAnswers":["neil","fat neil","neal","fat neal"],
-            "className":"tv800"
-            
-        },
-        {
-            "id":28,
-            "category":"tv",
-            "value":1000,
-            "prompt":"In The Office, who is the main character in Toby's mystery novels?",
-            "correctAnswers":["chad flenderman","flenderman"],
-            "className":"tv1000"
-            
-        },
-        {
-            "id":29,
-            "category":"tv",
-            "value":1000,
-            "prompt":"In Chuck, what is the name of the computer that gets installed in Chuck's mind?",
-            "correctAnswers":["the Intersect","intersect"],
-            "className":"tv1000"
-            
-        },
-        {
-            "id":30,
-            "category":"tv",
-            "value":1000,
-            "prompt":"Finish this Uncle Iroh quote: \"It's time for you to look inward, and start asking yourself the big questions. Who Are you? __________",
-            "correctAnswers":["and what do you want?","and what do you want"],
-            "className":"tv1000"
-            
-        },
-        {
-            "id":31,
-            "category":"geography",
-            "value":200,
-            "prompt":"What is defined as a piece of land projecting out into a body of water?",
-            "correctAnswers":["peninsula","penninsula","peninsulla"],
-            "className":"geography200"
-            
-        },
-        {
-            "id":32,
-            "category":"geography",
-            "value":200,
-            "prompt":"What is the second largest city in New York State?",
-            "correctAnswers":["buffalo"],
-            "className":"geography200"
-            
-        },
-        {
-            "id":33,
-            "category":"geography",
-            "value":200,
-            "prompt":"What is the capital of Texas?",
-            "correctAnswers":["austin"],
-            "className":"geography200"
-            
-        },
-        {
-            "id":34,
-            "category":"geography",
-            "value":400,
-            "prompt":"What is the capital of Iowa?",
-            "correctAnswers":["des moines"],
-            "className":"geography400"
-            
-        },
-        {
-            "id":35,
-            "category":"geography",
-            "value":400,
-            "prompt":"What is defined as an area of relatively level high ground?",
-            "correctAnswers":["plateau","plato","plateu"],
-            "className":"geography400"
-            
-        },
-        {
-            "id":36,
-            "category":"geography",
-            "value":400,
-            "prompt":"The two largest rivers in China are the Yangtze and the _____",
-            "correctAnswers":["yellow","yellow river"],
-            "className":"geography400"
-            
-        },
-        {
-            "id":37,
-            "category":"geography",
-            "value":600,
-            "prompt":"What is the capital of Minnesota?",
-            "correctAnswers":["st. paul", "st paul", "saint paul"],
-            "className":"geography600"
-            
-        },
-        {
-            "id":38,
-            "category":"geography",
-            "value":600,
-            "prompt":"What is the name of our sun?",
-            "correctAnswers":["sol"],
-            "className":"geography600"
-            
-        },
-        {
-            "id":39,
-            "category":"geography",
-            "value":600,
-            "prompt":"What is the capital of Minnesota?",
-            "correctAnswers":["st. paul", "st paul", "saint paul"],
-            "className":"geography600"
-            
-        }
-        ,
-        {
-            "id":40,
-            "category":"geography",
-            "value":800,
-            "prompt":"What is the largest moon in the solar system?",
-            "correctAnswers":["titan"],
-            "className":"geography800"
-            
-        } ,
-        {
-            "id":41,
-            "category":"geography",
-            "value":800,
-            "prompt":"What is the capital of Hungary?",
-            "correctAnswers":["budapest"],
-            "className":"geography800"
-            
-        }
-        ,
-        {
-            "id":42,
-            "category":"geography",
-            "value":800,
-            "prompt":"Carbon performs what covalent bond to make diamond?",
-            "correctAnswers":["network"],
-            "className":"geography800"
-            
-        } ,
-        {
-            "id":43,
-            "category":"geography",
-            "value":1000,
-            "prompt":"What is the name of our sun?",
-            "correctAnswers":["sol"],
-            "className":"geography1000"
-            
-        },
-        {
-            "id":44,
-            "category":"geography",
-            "value":1000,
-            "prompt":"What is the largest moon of Jupiter?",
-            "correctAnswers":["ganymede","ganamede","ganymead","ganamead"],
-            "className":"geography1000"
-            
-        },
-        {
-            "id":45,
-            "category":"geography",
-            "value":1000,
-            "prompt":"What cape sits at the southern tip of Africa?",
-            "correctAnswers":["the cape of good hope","good hope","cape of good hope"],
-            "className":"geography1000"
-            
-        },
-        {
-            "id":46,
-            "category":"sports",
-            "value":200,
-            "prompt":"Who was the last Yankee to wear #7?",
-            "correctAnswers":["mickey mantle","mantle","micky mantle"],
-            "className":"sports200"
-            
-        }
-        ,
-        {
-            "id":47,
-            "category":"sports",
-            "value":200,
-            "prompt":"In which professional league is the only team from Columbus Ohio?",
-            "correctAnswers":["nhl","hockey","the nhl"],
-            "className":"sports200"
-            
-        },
-        {
-            "id":48,
-            "category":"sports",
-            "value":200,
-            "prompt":"Where did the Rams play before Los Angeles?",
-            "correctAnswers":["st. louis","st louis","saint louis","st luis","st. luis"],
-            "className":"sports200"
-            
-        },
-        {
-            "id":49,
-            "category":"sports",
-            "value":400,
-            "prompt":"Name one of the four teams to have never been to the SuperBowl",
-            "correctAnswers":["Cleveland Browns, Jacksonville Jaguars, Detroit Lions, Houston Texans","browns","texans","jaguars","jags","lions","detroit lions","cleveland browns","jacksonville jaguars","houston texans"],
-            "className":"sports400"
-            
-        },
-        {
-            "id":50,
-            "category":"sports",
-            "value":400,
-            "prompt":"What is it called when a soccer player is in the attacking half and closer to the opposing team's goal-line than both the ball and the second-last opponent?",
-            "correctAnswers":["offsides","offside","off side","off sides","off-side","off-sides"],
-            "className":"sports400"
-            
-        },
-        {
-            "id":51,
-            "category":"sports",
-            "value":400,
-            "prompt":"What is it called when a golfer wins all 4 majors in a year?",
-            "correctAnswers":["grand slam","grand-slam"],
-            "className":"sports400"
-            
-        },
-        {
-            "id":52,
-            "category":"sports",
-            "value":600,
-            "prompt":"Who is the only MLB player to win both rookie of the year and MVP in the same year?",
-            "correctAnswers":["ichiro","ichiro suzuki"],
-            "className":"sports600"
-            
-        },
-        {
-            "id":53,
-            "category":"sports",
-            "value":600,
-            "prompt":"Who won the World Series MVP in 2016?",
-            "correctAnswers":["ben zobrist","zobrist"],
-            "className":"sports600"
-            
-        },
-        {
-            "id":54,
-            "category":"sports",
-            "value":600,
-            "prompt":"There are 7 ways to get on base. Walk, hit, hpb, dropped 3rd strike, catcher's interference, fielder's choice and _______",
-            "correctAnswers":["an error","error"],
-            "className":"sports600"
-            
-        },
-        {
-            "id":55,
-            "category":"sports",
-            "value":800,
-            "prompt":"Who is currently in 2nd place all time for passing yards?",
-            "correctAnswers":["drew brees","brees","drew brease","brease"],
-            "className":"sports800"
-            
-        },
-        {
-            "id":56,
-            "category":"sports",
-            "value":800,
-            "prompt":"Which team drafted Luka Doncic?",
-            "correctAnswers":["atlanta hawks","atlanta","hawks"],
-            "className":"sports800"
-            
-        },
-        {
-            "id":57,
-            "category":"sports",
-            "value":800,
-            "prompt":"Who was the shooting guard on the famous \"bad boys\" Pistons?",
-            "correctAnswers":["joe dumars","dumars"],
-            "className":"sports800"
-            
-        },
-        {
-            "id":58,
-            "category":"sports",
-            "value":1000,
-            "prompt":"Steph Curry is the current ACTIVE 3 point leader. Who is in second?",
-            "correctAnswers":["james harden","harden"],
-            "className":"sports1000"
-            
-        },
-        {
-            "id":59,
-            "category":"sports",
-            "value":1000,
-            "prompt":"In which year was the last MLB triple crown awarded?",
-            "correctAnswers":["2012"],
-            "className":"sports1000"
-            
-        },
-        {
-            "id":60,
-            "category":"sports",
-            "value":1000,
-            "prompt":"Yadier Molina won the NL gold glove every year from 2008-2015. Who won in 2016?",
-            "correctAnswers":["buster posey","posey","buster"],
-            "className":"sports1000"
-            
-        },
-        {
-            "id":61,
-            "category":"books",
-            "value":200,
-            "prompt":"Harry Potter and the Order of the Phoenix is which number in the series?",
-            "correctAnswers":["5","five"],
-            "className":"books200"
-            
-        },
-        {
-            "id":62,
-            "category":"books",
-            "value":200,
-            "prompt":"In Percy Jackson and the Olympians, which god/goddess is Annabeth the daughter of?",
-            "correctAnswers":["athena"],
-            "className":"books200"
-            
-        },
-        {
-            "id":63,
-            "category":"books",
-            "value":200,
-            "prompt":"In Romeo and Juliet, what is Romeo's last name?",
-            "correctAnswers":["montague","montagyu","montagu"],
-            "className":"books200"
-            
-        },
-        {
-            "id":64,
-            "category":"books",
-            "value":400,
-            "prompt":"Complete the title: The Seven _____ of Evelyn Hugo, by Taylor Jenkins Reid",
-            "correctAnswers":["husbands"],
-            "className":"books400"
-            
-        },
-        {
-            "id":65,
-            "category":"books",
-            "value":400,
-            "prompt":"In Bridge to Terabithia, Leslie is killed on what?",
-            "correctAnswers":["tire swing","a tire swing","a tire", "tire"],
-            "className":"books400"
-            
-        },
-        {
-            "id":66,
-            "category":"books",
-            "value":400,
-            "prompt":"Complete the title: The Seven _____ of Evelyn Hugo, by Taylor Jenkins Reid",
-            "correctAnswers":["husbands"],
-            "className":"books400"
-            
-        },
-        {
-            "id":67,
-            "category":"books",
-            "value":600,
-            "prompt":"Finish the title:Good Omens: The Nice and ______ prophecies of Agnes Nutter, by Terry Pratchett",
-            "correctAnswers":["accurate","acurate"],
-            "className":"books600"
-            
-        },
-        {
-            "id":68,
-            "category":"books",
-            "value":600,
-            "prompt":"What is the name of the main character in Douglas Adams' The Hitchhickers Guide to the Galaxy?",
-            "correctAnswers":["arthur dent","arther dent","arthur","dent"],
-            "className":"books600"
-            
-        },
-        {
-            "id":69,
-            "category":"books",
-            "value":600,
-            "prompt":"In Ready Player One, by Ernest Cline, what is the name of Samantha Cook's avatar?",
-            "correctAnswers":["artemis"],
-            "className":"books600"
-            
-        },
-        {
-            "id":70,
-            "category":"books",
-            "value":800,
-            "prompt":"In Harry Potter, what is the maiden name of Severus Snape's mother?",
-            "correctAnswers":["prince"],
-            "className":"books800"
-            
-        },
-        {
-            "id":71,
-            "category":"books",
-            "value":800,
-            "prompt":"What state is the main character from in 11/22/63, by Stephen King?",
-            "correctAnswers":["maine"],
-            "className":"books800"
-            
-        },
-        {
-            "id":72,
-            "category":"books",
-            "value":800,
-            "prompt":"In Project Hail Mary, by Andy Weir, what was responsible for the death of Rocky's shipmates?",
-            "correctAnswers":["radiation"],
-            "className":"books800"
-            
-        },
-        {
-            "id":73,
-            "category":"books",
-            "value":1000,
-            "prompt":"Who says the last words in a Midsummer night's dream?",
-            "correctAnswers":["puck"],
-            "className":"books1000"
-            
-        },
-        {
-            "id":74,
-            "category":"books",
-            "value":1000,
-            "prompt":"What is the name of Barty Crouch's house elf in Harry Potter and the Goblet of Fire?",
-            "correctAnswers":["winky"],
-            "className":"books1000"
-            
-        },
-        {
-            "id":75,
-            "category":"books",
-            "value":1000,
-            "prompt":"Who is the main character in James Patterson's 15 bok NYC murder mystery saga?",
-            "correctAnswers":["michael bennett","bennett","bennet","benet"],
-            "className":"books1000"
-            
-        }
-        
-        
-        
-        
-        
-
-
-
-        ]}
+  "questions": [
+    {
+      "id": 1,
+      "category": "movies",
+      "value": 200,
+      "prompt": "Which team's jersey does Happy Gilmore wear to his first tournament?",
+      "correctAnswers": [
+        "boston bruins",
+        "bruins"
+      ],
+      "className": "movies200"
+    },
+    {
+      "id": 2,
+      "category": "movies",
+      "value": 200,
+      "prompt": "What is Morgan Freeman's character's name in The Dark Knight?",
+      "correctAnswers": [
+        "lucius fox",
+        "lucius",
+        "fox"
+      ],
+      "className": "movies200"
+    },
+    {
+      "id": 3,
+      "category": "movies",
+      "value": 200,
+      "prompt": "Complete the quote: \"If you build it, ________\"?",
+      "correctAnswers": [
+        "nerds will come",
+        "they will come"
+      ],
+      "className": "movies200"
+    },
+    {
+      "id": 4,
+      "category": "movies",
+      "value": 400,
+      "prompt": "What was Stanley's last name in the movies Holes?",
+      "correctAnswers": [
+        "yelnats"
+      ],
+      "className": "movies400"
+    },
+    {
+      "id": 5,
+      "category": "movies",
+      "value": 400,
+      "prompt": "Who signed Brennan's samurai sword in Step Brothers?",
+      "correctAnswers": [
+        "randy jackson"
+      ],
+      "className": "movies400"
+    },
+    {
+      "id": 6,
+      "category": "movies",
+      "value": 400,
+      "prompt": "What tool does Andy Dufrene use to tunnel out of prison?",
+      "correctAnswers": [
+        "spoon",
+        "a spoon"
+      ],
+      "className": "movies400"
+    },
+    {
+      "id": 7,
+      "category": "movies",
+      "value": 600,
+      "prompt": "Which actor narrates the other guys?",
+      "correctAnswers": [
+        "ice-t",
+        "ice t"
+      ],
+      "className": "movies600"
+    },
+    {
+      "id": 8,
+      "category": "movies",
+      "value": 600,
+      "prompt": "What state do the Simpsons run away to in The Simpsons Movie?",
+      "correctAnswers": [
+        "alaska"
+      ],
+      "className": "movies600"
+    },
+    {
+      "id": 9,
+      "category": "movies",
+      "value": 600,
+      "prompt": "What is Jack Black's character's full name in School of Rock?",
+      "correctAnswers": [
+        "dewey finn",
+        "dewey fin"
+      ],
+      "className": "movies600"
+    },
+    {
+      "id": 10,
+      "category": "movies",
+      "value": 800,
+      "prompt": "What is the name of the opening song from South Park: Bigger,Longer and Uncut?",
+      "correctAnswers": [
+        "mountain town"
+      ],
+      "className": "movies800"
+    },
+    {
+      "id": 11,
+      "category": "movies",
+      "value": 800,
+      "prompt": "Which model of car did Ralph Maccio's charactere in My Cousin Vinny drive?",
+      "correctAnswers": [
+        "buick skylark",
+        "skylark"
+      ],
+      "className": "movies800"
+    },
+    {
+      "id": 12,
+      "category": "movies",
+      "value": 800,
+      "prompt": "What was the first song sung by Sophie in Mamma Mia?",
+      "correctAnswers": [
+        "honey honey",
+        "honey, honey",
+        "honey-honey"
+      ],
+      "className": "movies800"
+    },
+    {
+      "id": 13,
+      "category": "movies",
+      "value": 1000,
+      "prompt": "What was the first infinity stone that Thanos was able to collect?",
+      "correctAnswers": [
+        "power",
+        "the power stone",
+        "power stone"
+      ],
+      "className": "movies1000"
+    },
+    {
+      "id": 14,
+      "category": "movies",
+      "value": 1000,
+      "prompt": "What is the first name of Asthon Kutcher's character in No Strings Attached?",
+      "correctAnswers": [
+        "adam"
+      ],
+      "className": "movies1000"
+    },
+    {
+      "id": 15,
+      "category": "movies",
+      "value": 1000,
+      "prompt": "In The Incredibles, who is the hero that Mr. Incredible finds dead in a cave?",
+      "correctAnswers": [
+        "gazerbeam",
+        "gazerbeam",
+        "gaserbeam",
+        "gaserbeem"
+      ],
+      "className": "movies1000"
+    },
+    {
+      "id": 16,
+      "category": "tv",
+      "value": 200,
+      "prompt": "Finish this list of Friends: Joey, Phoebe, Rachel, Ross, Monica, ____",
+      "correctAnswers": [
+        "chandler"
+      ],
+      "className": "tv200"
+    },
+    {
+      "id": 17,
+      "category": "tv",
+      "value": 200,
+      "prompt": "What is the name of Phineas and Ferb's older sister",
+      "correctAnswers": [
+        "candace",
+        "candice"
+      ],
+      "className": "tv200"
+    },
+    {
+      "id": 18,
+      "category": "tv",
+      "value": 200,
+      "prompt": "Who is the oldest of Ned Stark's children?",
+      "correctAnswers": [
+        "robb",
+        "robb stark",
+        "rob stark",
+        "rob"
+      ],
+      "className": "tv200"
+    },
+    {
+      "id": 19,
+      "category": "tv",
+      "value": 400,
+      "prompt": "Who created Community?",
+      "correctAnswers": [
+        "dan harmon",
+        "harmon",
+        "harmin",
+        "dan harmin"
+      ],
+      "className": "tv400"
+    },
+    {
+      "id": 20,
+      "category": "tv",
+      "value": 400,
+      "prompt": "Who is the voice of Spongebob Squarepants?",
+      "correctAnswers": [
+        "tom kenny",
+        "kenny"
+      ],
+      "className": "tv400"
+    },
+    {
+      "id": 21,
+      "category": "tv",
+      "value": 400,
+      "prompt": "There are two Jewish kids in South Park. One is named Kyle. What is the other's name?",
+      "correctAnswers": [
+        "ike"
+      ],
+      "className": "tv400"
+    },
+    {
+      "id": 22,
+      "category": "tv",
+      "value": 600,
+      "prompt": "In Friends, what do Chandler and Monica name their son?",
+      "correctAnswers": [
+        "jack",
+        "jack bing"
+      ],
+      "className": "tv600"
+    },
+    {
+      "id": 23,
+      "category": "tv",
+      "value": 600,
+      "prompt": "What was the name of the song that Andy Dwyer wrote for lil' Sebastian?",
+      "correctAnswers": [
+        "5000 candles in the wind",
+        "five thousand candles in the wind",
+        "five-thousand candles in the wind"
+      ],
+      "className": "tv600"
+    },
+    {
+      "id": 24,
+      "category": "tv",
+      "value": 600,
+      "prompt": "Who is the oldest of Ned Stark's children?",
+      "correctAnswers": [
+        "robb",
+        "robb stark",
+        "rob stark",
+        "rob"
+      ],
+      "className": "tv600"
+    },
+    {
+      "id": 25,
+      "category": "tv",
+      "value": 800,
+      "prompt": "A member of a showmance won season 11 of big brother. Who was the other person?",
+      "correctAnswers": [
+        "jeff"
+      ],
+      "className": "tv800"
+    },
+    {
+      "id": 26,
+      "category": "tv",
+      "value": 800,
+      "prompt": "In Ted Lasso, what number does Jaime Tartt wear?",
+      "correctAnswers": [
+        "9",
+        "nine"
+      ],
+      "className": "tv800"
+    },
+    {
+      "id": 27,
+      "category": "tv",
+      "value": 800,
+      "prompt": "In Community, who is the gang trying to chear up the first time they played Dungeons and Dragons?",
+      "correctAnswers": [
+        "neil",
+        "fat neil",
+        "neal",
+        "fat neal"
+      ],
+      "className": "tv800"
+    },
+    {
+      "id": 28,
+      "category": "tv",
+      "value": 1000,
+      "prompt": "In The Office, who is the main character in Toby's mystery novels?",
+      "correctAnswers": [
+        "chad flenderman",
+        "flenderman"
+      ],
+      "className": "tv1000"
+    },
+    {
+      "id": 29,
+      "category": "tv",
+      "value": 1000,
+      "prompt": "In Chuck, what is the name of the computer that gets installed in Chuck's mind?",
+      "correctAnswers": [
+        "the Intersect",
+        "intersect"
+      ],
+      "className": "tv1000"
+    },
+    {
+      "id": 30,
+      "category": "tv",
+      "value": 1000,
+      "prompt": "Finish this Uncle Iroh quote: \"It's time for you to look inward, and start asking yourself the big questions. Who Are you? __________",
+      "correctAnswers": [
+        "and what do you want?",
+        "and what do you want"
+      ],
+      "className": "tv1000"
+    },
+    {
+      "id": 31,
+      "category": "geography",
+      "value": 200,
+      "prompt": "What is defined as a piece of land projecting out into a body of water?",
+      "correctAnswers": [
+        "peninsula",
+        "penninsula",
+        "peninsulla"
+      ],
+      "className": "geography200"
+    },
+    {
+      "id": 32,
+      "category": "geography",
+      "value": 200,
+      "prompt": "What is the second largest city in New York State?",
+      "correctAnswers": [
+        "buffalo"
+      ],
+      "className": "geography200"
+    },
+    {
+      "id": 33,
+      "category": "geography",
+      "value": 200,
+      "prompt": "What is the capital of Texas?",
+      "correctAnswers": [
+        "austin"
+      ],
+      "className": "geography200"
+    },
+    {
+      "id": 34,
+      "category": "geography",
+      "value": 400,
+      "prompt": "What is the capital of Iowa?",
+      "correctAnswers": [
+        "des moines"
+      ],
+      "className": "geography400"
+    },
+    {
+      "id": 35,
+      "category": "geography",
+      "value": 400,
+      "prompt": "What is defined as an area of relatively level high ground?",
+      "correctAnswers": [
+        "plateau",
+        "plato",
+        "plateu"
+      ],
+      "className": "geography400"
+    },
+    {
+      "id": 36,
+      "category": "geography",
+      "value": 400,
+      "prompt": "The two largest rivers in China are the Yangtze and the _____",
+      "correctAnswers": [
+        "yellow",
+        "yellow river"
+      ],
+      "className": "geography400"
+    },
+    {
+      "id": 37,
+      "category": "geography",
+      "value": 600,
+      "prompt": "What is the capital of Minnesota?",
+      "correctAnswers": [
+        "st. paul",
+        "st paul",
+        "saint paul"
+      ],
+      "className": "geography600"
+    },
+    {
+      "id": 38,
+      "category": "geography",
+      "value": 600,
+      "prompt": "What is the name of our sun?",
+      "correctAnswers": [
+        "sol"
+      ],
+      "className": "geography600"
+    },
+    {
+      "id": 39,
+      "category": "geography",
+      "value": 600,
+      "prompt": "What is the capital of Minnesota?",
+      "correctAnswers": [
+        "st. paul",
+        "st paul",
+        "saint paul"
+      ],
+      "className": "geography600"
+    },
+    {
+      "id": 40,
+      "category": "geography",
+      "value": 800,
+      "prompt": "What is the largest moon in the solar system?",
+      "correctAnswers": [
+        "titan"
+      ],
+      "className": "geography800"
+    },
+    {
+      "id": 41,
+      "category": "geography",
+      "value": 800,
+      "prompt": "What is the capital of Hungary?",
+      "correctAnswers": [
+        "budapest"
+      ],
+      "className": "geography800"
+    },
+    {
+      "id": 42,
+      "category": "geography",
+      "value": 800,
+      "prompt": "Carbon performs what covalent bond to make diamond?",
+      "correctAnswers": [
+        "network"
+      ],
+      "className": "geography800"
+    },
+    {
+      "id": 43,
+      "category": "geography",
+      "value": 1000,
+      "prompt": "What is the name of our sun?",
+      "correctAnswers": [
+        "sol"
+      ],
+      "className": "geography1000"
+    },
+    {
+      "id": 44,
+      "category": "geography",
+      "value": 1000,
+      "prompt": "What is the largest moon of Jupiter?",
+      "correctAnswers": [
+        "ganymede",
+        "ganamede",
+        "ganymead",
+        "ganamead"
+      ],
+      "className": "geography1000"
+    },
+    {
+      "id": 45,
+      "category": "geography",
+      "value": 1000,
+      "prompt": "What cape sits at the southern tip of Africa?",
+      "correctAnswers": [
+        "the cape of good hope",
+        "good hope",
+        "cape of good hope"
+      ],
+      "className": "geography1000"
+    },
+    {
+      "id": 46,
+      "category": "sports",
+      "value": 200,
+      "prompt": "Who was the last Yankee to wear #7?",
+      "correctAnswers": [
+        "mickey mantle",
+        "mantle",
+        "micky mantle"
+      ],
+      "className": "sports200"
+    },
+    {
+      "id": 47,
+      "category": "sports",
+      "value": 200,
+      "prompt": "In which professional league is the only team from Columbus Ohio?",
+      "correctAnswers": [
+        "nhl",
+        "hockey",
+        "the nhl"
+      ],
+      "className": "sports200"
+    },
+    {
+      "id": 48,
+      "category": "sports",
+      "value": 200,
+      "prompt": "Where did the Rams play before Los Angeles?",
+      "correctAnswers": [
+        "st. louis",
+        "st louis",
+        "saint louis",
+        "st luis",
+        "st. luis"
+      ],
+      "className": "sports200"
+    },
+    {
+      "id": 49,
+      "category": "sports",
+      "value": 400,
+      "prompt": "Name one of the four teams to have never been to the SuperBowl",
+      "correctAnswers": [
+        "Cleveland Browns, Jacksonville Jaguars, Detroit Lions, Houston Texans",
+        "browns",
+        "texans",
+        "jaguars",
+        "jags",
+        "lions",
+        "detroit lions",
+        "cleveland browns",
+        "jacksonville jaguars",
+        "houston texans"
+      ],
+      "className": "sports400"
+    },
+    {
+      "id": 50,
+      "category": "sports",
+      "value": 400,
+      "prompt": "What is it called when a soccer player is in the attacking half and closer to the opposing team's goal-line than both the ball and the second-last opponent?",
+      "correctAnswers": [
+        "offsides",
+        "offside",
+        "off side",
+        "off sides",
+        "off-side",
+        "off-sides"
+      ],
+      "className": "sports400"
+    },
+    {
+      "id": 51,
+      "category": "sports",
+      "value": 400,
+      "prompt": "What is it called when a golfer wins all 4 majors in a year?",
+      "correctAnswers": [
+        "grand slam",
+        "grand-slam"
+      ],
+      "className": "sports400"
+    },
+    {
+      "id": 52,
+      "category": "sports",
+      "value": 600,
+      "prompt": "Who is the only MLB player to win both rookie of the year and MVP in the same year?",
+      "correctAnswers": [
+        "ichiro",
+        "ichiro suzuki"
+      ],
+      "className": "sports600"
+    },
+    {
+      "id": 53,
+      "category": "sports",
+      "value": 600,
+      "prompt": "Who won the World Series MVP in 2016?",
+      "correctAnswers": [
+        "ben zobrist",
+        "zobrist"
+      ],
+      "className": "sports600"
+    },
+    {
+      "id": 54,
+      "category": "sports",
+      "value": 600,
+      "prompt": "There are 7 ways to get on base. Walk, hit, hpb, dropped 3rd strike, catcher's interference, fielder's choice and _______",
+      "correctAnswers": [
+        "an error",
+        "error"
+      ],
+      "className": "sports600"
+    },
+    {
+      "id": 55,
+      "category": "sports",
+      "value": 800,
+      "prompt": "Who is currently in 2nd place all time for passing yards?",
+      "correctAnswers": [
+        "drew brees",
+        "brees",
+        "drew brease",
+        "brease"
+      ],
+      "className": "sports800"
+    },
+    {
+      "id": 56,
+      "category": "sports",
+      "value": 800,
+      "prompt": "Which team drafted Luka Doncic?",
+      "correctAnswers": [
+        "atlanta hawks",
+        "atlanta",
+        "hawks"
+      ],
+      "className": "sports800"
+    },
+    {
+      "id": 57,
+      "category": "sports",
+      "value": 800,
+      "prompt": "Who was the shooting guard on the famous \"bad boys\" Pistons?",
+      "correctAnswers": [
+        "joe dumars",
+        "dumars"
+      ],
+      "className": "sports800"
+    },
+    {
+      "id": 58,
+      "category": "sports",
+      "value": 1000,
+      "prompt": "Steph Curry is the current ACTIVE 3 point leader. Who is in second?",
+      "correctAnswers": [
+        "james harden",
+        "harden"
+      ],
+      "className": "sports1000"
+    },
+    {
+      "id": 59,
+      "category": "sports",
+      "value": 1000,
+      "prompt": "In which year was the last MLB triple crown awarded?",
+      "correctAnswers": [
+        "2012"
+      ],
+      "className": "sports1000"
+    },
+    {
+      "id": 60,
+      "category": "sports",
+      "value": 1000,
+      "prompt": "Yadier Molina won the NL gold glove every year from 2008-2015. Who won in 2016?",
+      "correctAnswers": [
+        "buster posey",
+        "posey",
+        "buster"
+      ],
+      "className": "sports1000"
+    },
+    {
+      "id": 61,
+      "category": "books",
+      "value": 200,
+      "prompt": "Harry Potter and the Order of the Phoenix is which number in the series?",
+      "correctAnswers": [
+        "5",
+        "five"
+      ],
+      "className": "books200"
+    },
+    {
+      "id": 62,
+      "category": "books",
+      "value": 200,
+      "prompt": "In Percy Jackson and the Olympians, which god/goddess is Annabeth the daughter of?",
+      "correctAnswers": [
+        "athena"
+      ],
+      "className": "books200"
+    },
+    {
+      "id": 63,
+      "category": "books",
+      "value": 200,
+      "prompt": "In Romeo and Juliet, what is Romeo's last name?",
+      "correctAnswers": [
+        "montague",
+        "montagyu",
+        "montagu"
+      ],
+      "className": "books200"
+    },
+    {
+      "id": 64,
+      "category": "books",
+      "value": 400,
+      "prompt": "Complete the title: The Seven _____ of Evelyn Hugo, by Taylor Jenkins Reid",
+      "correctAnswers": [
+        "husbands"
+      ],
+      "className": "books400"
+    },
+    {
+      "id": 65,
+      "category": "books",
+      "value": 400,
+      "prompt": "In Bridge to Terabithia, Leslie is killed on what?",
+      "correctAnswers": [
+        "tire swing",
+        "a tire swing",
+        "a tire",
+        "tire"
+      ],
+      "className": "books400"
+    },
+    {
+      "id": 66,
+      "category": "books",
+      "value": 400,
+      "prompt": "Complete the title: The Seven _____ of Evelyn Hugo, by Taylor Jenkins Reid",
+      "correctAnswers": [
+        "husbands"
+      ],
+      "className": "books400"
+    },
+    {
+      "id": 67,
+      "category": "books",
+      "value": 600,
+      "prompt": "Finish the title:Good Omens: The Nice and ______ prophecies of Agnes Nutter, by Terry Pratchett",
+      "correctAnswers": [
+        "accurate",
+        "acurate"
+      ],
+      "className": "books600"
+    },
+    {
+      "id": 68,
+      "category": "books",
+      "value": 600,
+      "prompt": "What is the name of the main character in Douglas Adams' The Hitchhickers Guide to the Galaxy?",
+      "correctAnswers": [
+        "arthur dent",
+        "arther dent",
+        "arthur",
+        "dent"
+      ],
+      "className": "books600"
+    },
+    {
+      "id": 69,
+      "category": "books",
+      "value": 600,
+      "prompt": "In Ready Player One, by Ernest Cline, what is the name of Samantha Cook's avatar?",
+      "correctAnswers": [
+        "artemis"
+      ],
+      "className": "books600"
+    },
+    {
+      "id": 70,
+      "category": "books",
+      "value": 800,
+      "prompt": "In Harry Potter, what is the maiden name of Severus Snape's mother?",
+      "correctAnswers": [
+        "prince"
+      ],
+      "className": "books800"
+    },
+    {
+      "id": 71,
+      "category": "books",
+      "value": 800,
+      "prompt": "What state is the main character from in 11/22/63, by Stephen King?",
+      "correctAnswers": [
+        "maine"
+      ],
+      "className": "books800"
+    },
+    {
+      "id": 72,
+      "category": "books",
+      "value": 800,
+      "prompt": "In Project Hail Mary, by Andy Weir, what was responsible for the death of Rocky's shipmates?",
+      "correctAnswers": [
+        "radiation"
+      ],
+      "className": "books800"
+    },
+    {
+      "id": 73,
+      "category": "books",
+      "value": 1000,
+      "prompt": "Who says the last words in a Midsummer night's dream?",
+      "correctAnswers": [
+        "puck"
+      ],
+      "className": "books1000"
+    },
+    {
+      "id": 74,
+      "category": "books",
+      "value": 1000,
+      "prompt": "What is the name of Barty Crouch's house elf in Harry Potter and the Goblet of Fire?",
+      "correctAnswers": [
+        "winky"
+      ],
+      "className": "books1000"
+    },
+    {
+      "id": 75,
+      "category": "books",
+      "value": 1000,
+      "prompt": "Who is the main character in James Patterson's 15 book NYC murder mystery saga?",
+      "correctAnswers": [
+        "michael bennett",
+        "bennett",
+        "bennet",
+        "benet"
+      ],
+      "className": "books1000"
+    },
+    {
+      "id": 76,
+      "value": 1000,
+      "prompt": "In Yugioh, what is considered Joey's best card at the start of the battle city tournament?",
+      "correctAnswers": [
+       "time wizard","the time wizard"
+      ],
+      "className": "tv1000"
+    }
+  ]
+}

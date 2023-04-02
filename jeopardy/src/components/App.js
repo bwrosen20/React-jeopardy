@@ -24,6 +24,7 @@ function App(){
     const [questionTracker,setQuestionTracker]=useState([1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25])
 
 
+
 useEffect(()=>{
     fetch("http://localhost:3001/questions")
         .then((r)=>r.json())
@@ -31,6 +32,18 @@ useEffect(()=>{
 
     
 },[])
+
+
+
+function endGame(){
+    console.log("called")
+    setTeam1Points(0)
+    setTeam2Points(0)
+    setTeamCounter(true)
+    setWereTheyRight(false)
+    activateSteal(false)
+    setQuestionTracker([1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25])
+}
 
 
 
@@ -83,11 +96,12 @@ function handleSubmitAnswer(value,points,correctArray,id,stealValue){
 
 function handleClick(event){
 
-    const number=parseInt(event.target.value)
 
+    const number=parseInt(event.target.value)
    setQuestionTracker(questionTracker.map((question)=>(
     question===number?0:question
    )))
+
 
     setCurrentArray(questionList.filter((question)=>(
         question.className===event.target.id
@@ -105,7 +119,7 @@ return (
             <NewQuestionForm />
         </Route>
         <Route exact path="/gameover">
-            <GameOver />
+            <GameOver endGame={endGame} team1Points={team1Points} team2Points={team2Points}/>
         </Route>
         <Route exact path="/steal">
             <Steal steal={steal} question={stealQuestion} handleSubmitAnswer={handleSubmitAnswer}/>
