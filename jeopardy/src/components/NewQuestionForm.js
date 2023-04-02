@@ -1,4 +1,4 @@
-import React,{useState,useEffect} from "react"
+import React,{useState} from "react"
 
 function NewQuestionForm(){
 
@@ -15,27 +15,16 @@ function NewQuestionForm(){
     setFormData({
       ...formData,
       [event.target.name]:event.target.value,
-      ["value"]:((event.target.value).includes("200"))?200:((event.target.value).includes("400"))?400:((event.target.value).includes("600"))?600:((event.target.value).includes("800"))?800:1000
-      
-      
+      ["value"]:((event.target.value).includes("200"))?200:
+      ((event.target.value).includes("400"))?400:
+      ((event.target.value).includes("600"))?600:
+      ((event.target.value).includes("800"))?800:1000
     })
-
-
-
-  }
-
-  function afterSubmit(){
-    const timer=setTimeout(()=>{
-      
-      setSubmitted(false)
-
-  },3000)
   }
 
 
   function handleSubmit(){
     setSubmitted(true)
-    afterSubmit();
     fetch("http://localhost:3001/questions",{
       method:"POST",
       headers:{
@@ -63,7 +52,7 @@ function NewQuestionForm(){
           />
         </label>
         <label>
-          correct answer:
+          Correct answer:
           <input
             placeholder="Please input answer"
             type="text"

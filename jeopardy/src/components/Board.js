@@ -13,14 +13,12 @@ function Board({teamCounter, handleClick, team1Points,team2Points, questionTrack
     <div className="categories">
         <button className="category">Movies</button>
         <button className="category">TV</button>
-        <button className="category">Miscalaneous</button>
+        <button className="category">Miscallaneous</button>
         <button className="category">Sports</button>
         <button className="category">Books</button>
 
     </div>
         <div className="qcontainer">
-
-            
            <button className={questionTracker[0]?"question":"greyquestion"} id="movies200" value="1" onClick={questionTracker[0]?handleClick:null}>$200</button>
            <button className={questionTracker[1]?"question":"greyquestion"} id="tv200" value="2" onClick={questionTracker[1]?handleClick:null}>$200</button>
            <button className={questionTracker[2]?"question":"greyquestion"} id="geography200" value="3" onClick={questionTracker[2]?handleClick:null}>$200</button>

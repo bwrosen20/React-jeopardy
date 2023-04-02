@@ -964,6 +964,134 @@
       "className": "geography600",
       "value": 600,
       "id": 86
+    },
+    {
+      "prompt": "What year was JFK assassinated? ",
+      "correctAnswers": "1963",
+      "className": "geography800",
+      "value": 800,
+      "id": 87
+    },
+    {
+      "prompt": "What is the second tallest mountain on Earth?",
+      "correctAnswers": "k2",
+      "className": "geography600",
+      "value": 600,
+      "id": 88
+    },
+    {
+      "prompt": "Alex Rodriguez and Ichiro played together on which team?",
+      "correctAnswers": [
+        "new york yankees",
+        "yankees",
+        "the yankees",
+        "the new york yankees"
+      ],
+      "className": "sports400",
+      "value": 400,
+      "id": 89
+    },
+    {
+      "prompt": "Four forces act on a plane in flight: Lift, drag, gravity and _____",
+      "correctAnswers": "thrust",
+      "className": "geography1000",
+      "value": 1000,
+      "id": 90
+    },
+    {
+      "prompt": "In Project Hail Mary, by Andy Weir, where in the solar system do astrophage go to breed?",
+      "correctAnswers": "venus",
+      "className": "books600",
+      "value": 600,
+      "id": 91
+    },
+    {
+      "prompt": "What number does Mike Trout wear?",
+      "correctAnswers": "27",
+      "className": "sports400",
+      "value": 400,
+      "id": 92
+    },
+    {
+      "prompt": "Who played Donna in Mamma Mia!?",
+      "correctAnswers": [
+        "meryl streep",
+        "streep",
+        "meril streep",
+        "meryl streap",
+        "meril streap",
+        "meryl streap"
+      ],
+      "className": "movies200",
+      "value": 200,
+      "id": 93
+    },
+    {
+      "prompt": "Steve Wozniak was the co-founder of which massive American company?",
+      "correctAnswers": "apple",
+      "className": "geography200",
+      "value": 200,
+      "id": 94
+    },
+    {
+      "prompt": "Who is the voice of Remy in Ratatouille?",
+      "correctAnswers": [
+        "patton oswalt",
+        "patton oswald",
+        "oswalt",
+        "oswald"
+      ],
+      "className": "movies600",
+      "value": 600,
+      "id": 95
+    },
+    {
+      "prompt": "What is the name of the would-be executioner of Buckbeak in Harry Potter and the Prisoner of Azkaban?",
+      "correctAnswers": [
+        "walden macnair",
+        "walden mcnair",
+        "mcnair",
+        "macnair"
+      ],
+      "className": "books1000",
+      "value": 1000,
+      "id": 96
+    },
+    {
+      "prompt": "What does Pikachu evolve into?",
+      "correctAnswers": "raichu",
+      "className": "tv200",
+      "value": 200,
+      "id": 97
+    },
+    {
+      "prompt": "The ideal gas law is PV=nRT. What does the T stand for?",
+      "correctAnswers": [
+        "temperature",
+        "temp",
+        "temperture",
+        "temprture"
+      ],
+      "className": "geography400",
+      "value": 400,
+      "id": 98
+    },
+    {
+      "prompt": "What is the name of the first installment of Lemony Snicket's \"A series of unfortunate events\"?",
+      "correctAnswers": [
+        "the bad beginning",
+        "bad beginning"
+      ],
+      "className": "books800",
+      "value": 800,
+      "id": 99
+    },
+    {
+      "prompt": "Finish the lyric: \"She's just a girl who claims that I am the one, but _______________\"",
+      "correctAnswers": "the kid is not my son",
+      "className": "geography600",
+      "value": 600,
+      "id": 100
     }
   ]
 }

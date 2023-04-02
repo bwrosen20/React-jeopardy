@@ -9,7 +9,7 @@ function Question({question,handleSubmitAnswer}){
     useEffect(()=>{
         
         if (timeRemaining===0){
-          handleSubmitAnswer("brian","rosen","rocks",question.id,false)
+          handleSubmitAnswer("brian","rosen",question.correctAnswers,question.id,false)
         }
         
         const timer=setTimeout(()=>{
