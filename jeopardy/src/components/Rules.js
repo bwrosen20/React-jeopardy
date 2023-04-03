@@ -12,6 +12,7 @@ function Rules(){
             <h3>5. Some spelling mistakes will be accepted, but larger spelling errors will be marked incorrect</h3>
             <h3>6. Points are awarded to whichever team -if any- gets the question right</h3>
             <h3>7. After 25 questions are answered, whoever has the most points wins the game</h3>
+            <h3>8. To reset the board and play again just click the "Play Again" button</h3>
 
             <h2>If you would like to add a new question to the database, go to the "Add a new question" tab</h2>
     </div>
