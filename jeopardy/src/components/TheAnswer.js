@@ -5,9 +5,11 @@ function TheAnswer({questionTracker, steal,correctAnswer,wereTheyRight}){
 
     const [timeRemaining,setTimeRemaining]=useState(2)
     const history=useHistory();
+
+    console.log(questionTracker)
     
     const gameEnder=questionTracker.find((question)=>(
-      question>1
+      question>0
     ))
 
     console.log(gameEnder)
@@ -17,7 +19,7 @@ function TheAnswer({questionTracker, steal,correctAnswer,wereTheyRight}){
 
       if (timeRemaining===0){ 
         
-        if (steal && gameEnder){
+        if (steal){
         history.push("/steal")
         }
         else if (gameEnder){

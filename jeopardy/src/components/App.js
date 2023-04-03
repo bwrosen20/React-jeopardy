@@ -36,7 +36,6 @@ useEffect(()=>{
 
 
 function endGame(){
-    console.log("called")
     setTeam1Points(0)
     setTeam2Points(0)
     setTeamCounter(true)
@@ -147,3 +146,5 @@ export default App
 
 
 
+//fix not letting last team steal
+//fix single answer arrays coming up as one letter

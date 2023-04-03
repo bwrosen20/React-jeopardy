@@ -12,7 +12,7 @@ function NavBar(){
             exact
             
             activeStyle={{
-                color:"blue",
+                color:"black",
             }}
             className="navOption"
             >
@@ -23,7 +23,7 @@ function NavBar(){
             exact
            
             activeStyle={{
-                color:"blue",
+                color:"black",
             }}
             className="navOption"
             >
@@ -34,7 +34,7 @@ function NavBar(){
             exact
            
             activeStyle={{
-                color:"blue",
+                color:"black",
             }}
             className="navOption"
             >

@@ -39,7 +39,7 @@ function NewQuestionForm(){
     return <div>
         <section>
       <h1>New Question</h1>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} autoComplete="off">
         <label>
           Prompt:
           <input

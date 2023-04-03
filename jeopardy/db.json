@@ -40,6 +40,7 @@
       "value": 400,
       "prompt": "What was Stanley's last name in the movies Holes?",
       "correctAnswers": [
+        "yelnats",
         "yelnats"
       ],
       "className": "movies400"
@@ -50,6 +51,7 @@
       "value": 400,
       "prompt": "Who signed Brennan's samurai sword in Step Brothers?",
       "correctAnswers": [
+        "randy jackson",
         "randy jackson"
       ],
       "className": "movies400"
@@ -82,6 +84,7 @@
       "value": 600,
       "prompt": "What state do the Simpsons run away to in The Simpsons Movie?",
       "correctAnswers": [
+        "alaska",
         "alaska"
       ],
       "className": "movies600"
@@ -103,6 +106,7 @@
       "value": 800,
       "prompt": "What is the name of the opening song from South Park: Bigger,Longer and Uncut?",
       "correctAnswers": [
+        "mountain town",
         "mountain town"
       ],
       "className": "movies800"
@@ -148,6 +152,7 @@
       "value": 1000,
       "prompt": "What is the first name of Asthon Kutcher's character in No Strings Attached?",
       "correctAnswers": [
+        "adam",
         "adam"
       ],
       "className": "movies1000"
@@ -872,7 +877,7 @@
     },
     {
       "prompt": "In the original Pokemon, which of Ash's pokemon refused to obey him?",
-      "correctAnswers": "charizard",
+      "correctAnswers": ["charizard"],
       "className": "tv400",
       "value": 400,
       "id": 78
@@ -960,21 +965,23 @@
     },
     {
       "prompt": "What is the scientific name of the closest star to Earth?",
-      "correctAnswers": "sol",
+      "correctAnswers": ["sol"],
       "className": "geography600",
       "value": 600,
       "id": 86
     },
     {
       "prompt": "What year was JFK assassinated? ",
-      "correctAnswers": "1963",
+      "correctAnswers": ["1963",
+        "63",
+        "'63"],
       "className": "geography800",
       "value": 800,
       "id": 87
     },
     {
       "prompt": "What is the second tallest mountain on Earth?",
-      "correctAnswers": "k2",
+      "correctAnswers": ["k2"],
       "className": "geography600",
       "value": 600,
       "id": 88
@@ -993,21 +1000,21 @@
     },
     {
       "prompt": "Four forces act on a plane in flight: Lift, drag, gravity and _____",
-      "correctAnswers": "thrust",
+      "correctAnswers": ["thrust"],
       "className": "geography1000",
       "value": 1000,
       "id": 90
     },
     {
       "prompt": "In Project Hail Mary, by Andy Weir, where in the solar system do astrophage go to breed?",
-      "correctAnswers": "venus",
+      "correctAnswers": ["venus"],
       "className": "books600",
       "value": 600,
       "id": 91
     },
     {
       "prompt": "What number does Mike Trout wear?",
-      "correctAnswers": "27",
+      "correctAnswers": ["27"],
       "className": "sports400",
       "value": 400,
       "id": 92
@@ -1028,7 +1035,7 @@
     },
     {
       "prompt": "Steve Wozniak was the co-founder of which massive American company?",
-      "correctAnswers": "apple",
+      "correctAnswers": ["apple"],
       "className": "geography200",
       "value": 200,
       "id": 94
@@ -1059,7 +1066,7 @@
     },
     {
       "prompt": "What does Pikachu evolve into?",
-      "correctAnswers": "raichu",
+      "correctAnswers": ["raichu"],
       "className": "tv200",
       "value": 200,
       "id": 97
@@ -1088,10 +1095,278 @@
     },
     {
       "prompt": "Finish the lyric: \"She's just a girl who claims that I am the one, but _______________\"",
-      "correctAnswers": "the kid is not my son",
+      "correctAnswers": ["the kid is not my son"],
       "className": "geography600",
       "value": 600,
       "id": 100
+    },
+    {
+      "prompt": "What year does Marty travel back to in Back to the Future?",
+      "correctAnswers": ["1955"],
+      "className": "movies400",
+      "value": 400,
+      "id": 101
+    },
+    {
+      "prompt": "What does the young version of Marty's mother call him?",
+      "correctAnswers": [
+        "calvin",
+        "calvin klein",
+        "kalvin",
+        "kalvin cline",
+        "calvin cline"
+      ],
+      "className": "movies200",
+      "value": 200,
+      "id": 102
+    },
+    {
+      "prompt": "In Soul Surfer, what kind of shark takes Bethany's arm?",
+      "correctAnswers": [
+        "tiger shark",
+        "tiger",
+        "a tiger shark"
+      ],
+      "className": "movies600",
+      "value": 600,
+      "id": 103
+    },
+    {
+      "prompt": "What is Jean Girard's husband's name in Talladega Knights?",
+      "correctAnswers": ["gregory"],
+      "className": "movies800",
+      "value": 800,
+      "id": 104
+    },
+    {
+      "prompt": "In Zootopia, which animals work at the DMV?",
+      "correctAnswers": [
+        "sloths",
+        "sloth"
+      ],
+      "className": "movies400",
+      "value": 400,
+      "id": 105
+    },
+    {
+      "prompt": "In The Longest Yard, what is the name of Chris Rock's character?",
+      "correctAnswers": [
+        "caretaker",
+        "care taker",
+        "care-taker"
+      ],
+      "className": "movies800",
+      "value": 800,
+      "id": 106
+    },
+    {
+      "prompt": "What is the name of the town from The Truman Show?",
+      "correctAnswers": ["seahaven"],
+      "className": "movies1000",
+      "value": 1000,
+      "id": 107
+    },
+    {
+      "prompt": "What is the name of the baby Cosmo has in season 6 of The Fairly Odd Parents?",
+      "correctAnswers": ["poof"],
+      "className": "tv200",
+      "value": 200,
+      "id": 108
+    },
+    {
+      "prompt": "Who was the only animagus who was never acnowledged as one in the Harry Potter movies?",
+      "correctAnswers": [
+        "rita skeeter",
+        "skeeter",
+        "rita",
+        "rita skeeta",
+        "rita skeater",
+        "skeater"
+      ],
+      "className": "books600",
+      "value": 1000,
+      "id": 109
+    },
+    {
+      "prompt": "In Avatar the Last Airbender, what name does Zuko use while in the earth kingdom?",
+      "correctAnswers": ["lee"],
+      "className": "tv400",
+      "value": 400,
+      "id": 110
+    },
+    {
+      "prompt": "In Avatar the Last Airbender, who runs earth rumble VI?",
+      "correctAnswers": [
+        "xin fu",
+        "shin fu",
+        "xin foo",
+        "shin foo",
+        "xin-fu",
+        "xin-foo",
+        "shin-fu",
+        "shin-foo"
+      ],
+      "className": "tv1000",
+      "value": 1000,
+      "id": 111
+    },
+    {
+      "prompt": "What is the name of the bully from Ned's Declassified School Survival Guide?",
+      "correctAnswers": [
+        "billy loomer",
+        "billy lumer",
+        "billy",
+        "loomer",
+        "lumer"
+      ],
+      "className": "tv600",
+      "value": 600,
+      "id": 112
+    },
+    {
+      "prompt": "Who plays Olivia Benson on Law and Order SVU?",
+      "correctAnswers": [
+        "mariska hargitay",
+        "hargitay",
+        "hartigay",
+        "mariska"
+      ],
+      "className": "tv800",
+      "value": 800,
+      "id": 113
+    },
+    {
+      "prompt": "What is the only state capital that includes its state name?",
+      "correctAnswers": [
+        "oklahoma city, oklahoma",
+        "oklahoma city"
+      ],
+      "className": "geography600",
+      "value": 600,
+      "id": 114
+    },
+    {
+      "prompt": "What is the capital of Germany?",
+      "correctAnswers": ["berlin"],
+      "className": "geography200",
+      "value": 200,
+      "id": 115
+    },
+    {
+      "prompt": "Which American president dropped 2 atomic bombs on Japan?",
+      "correctAnswers": [
+        "harry truman",
+        "truman"
+      ],
+      "className": "geography400",
+      "value": 400,
+      "id": 116
+    },
+    {
+      "prompt": "What is the largest dolphin species?",
+      "correctAnswers": [
+        "orca",
+        "the orca",
+        "killer whale",
+        "killer whales",
+        "orcas",
+        "a killer whale"
+      ],
+      "className": "geography1000",
+      "value": 1000,
+      "id": 117
+    },
+    {
+      "prompt": "Who plays guitar for Queen?",
+      "correctAnswers": ["brian may"],
+      "className": "geography800",
+      "value": 800,
+      "id": 118
+    },
+    {
+      "prompt": "Which NHL team plays in Calgary?",
+      "correctAnswers": ["flames"],
+      "className": "sports200",
+      "value": 200,
+      "id": 119
+    },
+    {
+      "prompt": "In their history, how many world series' have the Rays been to?",
+      "correctAnswers": [
+        "2",
+        "two"
+      ],
+      "className": "sports600",
+      "value": 600,
+      "id": 120
+    },
+    {
+      "prompt": "Finish the qualifiers for the infield fly rule. The fly ball must be catchable by an infielder and not a line drive or bunt, there must be runners on at least 1st and 2nd and there must be _______.",
+      "correctAnswers": [
+        "fewer than 2 outs",
+        "1 out or less",
+        "1 out or fewer",
+        "less than 2 outs",
+        "under 2 outs",
+        "fewer than two outs",
+        "less than two outs",
+        "one out or less",
+        "one out or fewer",
+        "under two outs",
+        "one out or fewer"
+      ],
+      "className": "sports1000",
+      "value": 1000,
+      "id": 121
+    },
+    {
+      "prompt": "Who lost the 2009 world series?",
+      "correctAnswers": [
+        "philadelphia phillies",
+        "phillies",
+        "philadelphia",
+        "philly"
+      ],
+      "className": "sports400",
+      "value": 400,
+      "id": 122
+    },
+    {
+      "prompt": "Within 2, how many major titles has Serena Williams won?",
+      "correctAnswers": ["23",
+        "24",
+        "25",
+        "22",
+        "21",
+        "twenty-three",
+        "twenty-four",
+        "twenty-five",
+        "twenty-two",
+        "twenty-one",
+        "twenty three",
+        "twenty four",
+        "twenty five",
+        "twenty two",
+        "twenty one"],
+      "className": "sports800",
+      "value": 1000,
+      "id": 123
+       }   ,
+    {
+      "prompt": "Fill in the blank from The Spongebob Movie: \"He's a ______, a  wingnut, a knucklehead mcspazatron!",
+      "correctAnswers": ["goofball","goof ball"],
+      "className": "movies800",
+      "value": 800,
+      "id": 124
+    },
+    {
+      "prompt": "What is the full name of numbah 1 of the kids next door?",
+      "correctAnswers": ["nigel uno"],
+      "className": "tv600",
+      "value": 600,
+      "id": 125
     }
+    
+
   ]
 }
