@@ -45,4 +45,6 @@ The only function you can use from this page to click a category value. The foll
    3a. They will either get the answer right and see the "correct!!" screen pictured above or be alerted to the correct answer (see below)
    <img width="960" alt="image" src="https://user-images.githubusercontent.com/114421657/229659852-055d1b06-8c59-42e6-86fa-e9be5c52b775.png">
 
+4. We will assume that team 1 got that question correct. We will return to the board component with two differences. The scoreboard will be updated and the selected question will be greyed out and unclickable (see below)
+<img width="956" alt="image" src="https://user-images.githubusercontent.com/114421657/229660756-7df59443-b9b0-4ab5-af99-844cd0a71b1f.png">
 
