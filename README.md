@@ -55,3 +55,6 @@ The only function you can use from this page to click a category value. The foll
 <img width="960" alt="image" src="https://user-images.githubusercontent.com/114421657/229661625-f9f56bf0-fbb6-481e-9e22-57835296a4da.png">
 
 
+The app also has some functionality in the "Add a New Question!" page
+
+1. From this page, you can input a question prompt, answer and category/value. The full question will be added to the JSON database and immediately be an option for the randomizer. The form automatically refreshes the page so that a user can easily add multiple questions at a time and therefore cannot be used during an active game.
