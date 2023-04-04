@@ -48,3 +48,10 @@ The only function you can use from this page to click a category value. The foll
 4. We will assume that team 1 got that question correct. We will return to the board component with two differences. The scoreboard will be updated and the selected question will be greyed out and unclickable (see below)
 <img width="956" alt="image" src="https://user-images.githubusercontent.com/114421657/229660756-7df59443-b9b0-4ab5-af99-844cd0a71b1f.png">
 
+5. After a few turns of gameplay, the board will start greying out and the scoreboard will continue to update
+<img width="959" alt="image" src="https://user-images.githubusercontent.com/114421657/229661142-940274da-03e9-4602-bc92-1e6a29de69d1.png">
+
+6. After all 25 questions are answered, the game will end and the users will be alerted as to who won and what the score was. They will also be given the option to reset the board and play again. The game selects questions from an array of about 5 questions per category/value. The API currently consists of about 125 questions.
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/114421657/229661625-f9f56bf0-fbb6-481e-9e22-57835296a4da.png">
+
+
