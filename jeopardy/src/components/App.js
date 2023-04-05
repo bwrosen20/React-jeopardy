@@ -64,6 +64,7 @@ function handleSubmitAnswer(value,points,correctArray,id,stealValue){
         setTeamCounter(!teamCounter)
         activateSteal(false)
     }
+
     else{
 
        if (stealValue){
@@ -71,8 +72,6 @@ function handleSubmitAnswer(value,points,correctArray,id,stealValue){
         activateSteal(false)
         setTeamCounter(!teamCounter)
        }
-       
-       
        else {
         setStealQuestion(questionList.find((question)=>(
             question.id===id
@@ -81,16 +80,10 @@ function handleSubmitAnswer(value,points,correctArray,id,stealValue){
         activateSteal(true)
         if (stealValue){
             setTeamCounter(!teamCounter)
-        }
-            }
-
-        }
-
-    
+        }}}
     setCorrectAnswer(correctArray[0])
     history.push("/theanswer")
-    
-    }
+}
     
 
 
@@ -108,6 +101,7 @@ function handleClick(event){
     )))
     history.push("/question")
 }
+
 
 
 return (
@@ -133,7 +127,7 @@ return (
         <Route exact path="/question">
             <PickAQuestion handleSubmitAnswer={handleSubmitAnswer} questionArray={currentArray}/>
         </Route>
-        <Route exact path="/">
+        <Route path="/">
             <Rules />
         </Route>
     </Switch>
@@ -145,6 +139,3 @@ return (
 export default App
 
 
-
-//fix not letting last team steal
-//fix single answer arrays coming up as one letter

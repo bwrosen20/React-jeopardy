@@ -265,12 +265,10 @@
       "id": 24,
       "category": "tv",
       "value": 600,
-      "prompt": "Who is the oldest of Ned Stark's children?",
+      "prompt": "Who was the first King of the Nerds?",
       "correctAnswers": [
-        "robb",
-        "robb stark",
-        "rob stark",
-        "rob"
+        "celeste",
+        "celest"
       ],
       "className": "tv600"
     },
@@ -877,7 +875,9 @@
     },
     {
       "prompt": "In the original Pokemon, which of Ash's pokemon refused to obey him?",
-      "correctAnswers": ["charizard"],
+      "correctAnswers": [
+        "charizard"
+      ],
       "className": "tv400",
       "value": 400,
       "id": 78
@@ -965,23 +965,29 @@
     },
     {
       "prompt": "What is the scientific name of the closest star to Earth?",
-      "correctAnswers": ["sol"],
+      "correctAnswers": [
+        "sol"
+      ],
       "className": "geography600",
       "value": 600,
       "id": 86
     },
     {
       "prompt": "What year was JFK assassinated? ",
-      "correctAnswers": ["1963",
+      "correctAnswers": [
+        "1963",
         "63",
-        "'63"],
+        "'63"
+      ],
       "className": "geography800",
       "value": 800,
       "id": 87
     },
     {
       "prompt": "What is the second tallest mountain on Earth?",
-      "correctAnswers": ["k2"],
+      "correctAnswers": [
+        "k2"
+      ],
       "className": "geography600",
       "value": 600,
       "id": 88
@@ -1000,21 +1006,27 @@
     },
     {
       "prompt": "Four forces act on a plane in flight: Lift, drag, gravity and _____",
-      "correctAnswers": ["thrust"],
+      "correctAnswers": [
+        "thrust"
+      ],
       "className": "geography1000",
       "value": 1000,
       "id": 90
     },
     {
       "prompt": "In Project Hail Mary, by Andy Weir, where in the solar system do astrophage go to breed?",
-      "correctAnswers": ["venus"],
+      "correctAnswers": [
+        "venus"
+      ],
       "className": "books600",
       "value": 600,
       "id": 91
     },
     {
       "prompt": "What number does Mike Trout wear?",
-      "correctAnswers": ["27"],
+      "correctAnswers": [
+        "27"
+      ],
       "className": "sports400",
       "value": 400,
       "id": 92
@@ -1035,7 +1047,9 @@
     },
     {
       "prompt": "Steve Wozniak was the co-founder of which massive American company?",
-      "correctAnswers": ["apple"],
+      "correctAnswers": [
+        "apple"
+      ],
       "className": "geography200",
       "value": 200,
       "id": 94
@@ -1066,7 +1080,9 @@
     },
     {
       "prompt": "What does Pikachu evolve into?",
-      "correctAnswers": ["raichu"],
+      "correctAnswers": [
+        "raichu"
+      ],
       "className": "tv200",
       "value": 200,
       "id": 97
@@ -1095,20 +1111,24 @@
     },
     {
       "prompt": "Finish the lyric: \"She's just a girl who claims that I am the one, but _______________\"",
-      "correctAnswers": ["the kid is not my son"],
+      "correctAnswers": [
+        "the kid is not my son"
+      ],
       "className": "geography600",
       "value": 600,
       "id": 100
     },
     {
-      "prompt": "What year does Marty travel back to in Back to the Future?",
-      "correctAnswers": ["1955"],
+      "prompt": "Which year does Marty travel back to in Back to the Future?",
+      "correctAnswers": [
+        "1955"
+      ],
       "className": "movies400",
       "value": 400,
       "id": 101
     },
     {
-      "prompt": "What does the young version of Marty's mother call him?",
+      "prompt": "In Back to the Future, what does the young version of Marty's mother call him?",
       "correctAnswers": [
         "calvin",
         "calvin klein",
@@ -1133,7 +1153,9 @@
     },
     {
       "prompt": "What is Jean Girard's husband's name in Talladega Knights?",
-      "correctAnswers": ["gregory"],
+      "correctAnswers": [
+        "gregory"
+      ],
       "className": "movies800",
       "value": 800,
       "id": 104
@@ -1161,14 +1183,18 @@
     },
     {
       "prompt": "What is the name of the town from The Truman Show?",
-      "correctAnswers": ["seahaven"],
+      "correctAnswers": [
+        "seahaven"
+      ],
       "className": "movies1000",
       "value": 1000,
       "id": 107
     },
     {
       "prompt": "What is the name of the baby Cosmo has in season 6 of The Fairly Odd Parents?",
-      "correctAnswers": ["poof"],
+      "correctAnswers": [
+        "poof"
+      ],
       "className": "tv200",
       "value": 200,
       "id": 108
@@ -1189,7 +1215,9 @@
     },
     {
       "prompt": "In Avatar the Last Airbender, what name does Zuko use while in the earth kingdom?",
-      "correctAnswers": ["lee"],
+      "correctAnswers": [
+        "lee"
+      ],
       "className": "tv400",
       "value": 400,
       "id": 110
@@ -1247,7 +1275,9 @@
     },
     {
       "prompt": "What is the capital of Germany?",
-      "correctAnswers": ["berlin"],
+      "correctAnswers": [
+        "berlin"
+      ],
       "className": "geography200",
       "value": 200,
       "id": 115
@@ -1278,14 +1308,18 @@
     },
     {
       "prompt": "Who plays guitar for Queen?",
-      "correctAnswers": ["brian may"],
+      "correctAnswers": [
+        "brian may"
+      ],
       "className": "geography800",
       "value": 800,
       "id": 118
     },
     {
       "prompt": "Which NHL team plays in Calgary?",
-      "correctAnswers": ["flames"],
+      "correctAnswers": [
+        "flames"
+      ],
       "className": "sports200",
       "value": 200,
       "id": 119
@@ -1333,7 +1367,8 @@
     },
     {
       "prompt": "Within 2, how many major titles has Serena Williams won?",
-      "correctAnswers": ["23",
+      "correctAnswers": [
+        "23",
         "24",
         "25",
         "22",
@@ -1347,26 +1382,37 @@
         "twenty four",
         "twenty five",
         "twenty two",
-        "twenty one"],
+        "twenty one"
+      ],
       "className": "sports800",
       "value": 1000,
       "id": 123
-       }   ,
+    },
     {
       "prompt": "Fill in the blank from The Spongebob Movie: \"He's a ______, a  wingnut, a knucklehead mcspazatron!",
-      "correctAnswers": ["goofball","goof ball"],
+      "correctAnswers": [
+        "goofball",
+        "goof ball"
+      ],
       "className": "movies800",
       "value": 800,
       "id": 124
     },
     {
       "prompt": "What is the full name of numbah 1 of the kids next door?",
-      "correctAnswers": ["nigel uno"],
+      "correctAnswers": [
+        "nigel uno"
+      ],
       "className": "tv600",
       "value": 600,
       "id": 125
+    },
+    {
+      "prompt": "who am I?",
+      "correctAnswers": "brian",
+      "className": "geography1000",
+      "value": 1000,
+      "id": 126
     }
-    
-
   ]
 }

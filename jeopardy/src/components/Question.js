@@ -21,9 +21,6 @@ function Question({question,handleSubmitAnswer}){
         return function (){
           clearTimeout(timer)
         }
-      
-      
-      
       },[timeRemaining])
 
     
@@ -52,11 +49,6 @@ function Question({question,handleSubmitAnswer}){
 
         </form>
         </div>
-
-
-                
-                
-            
     </div>
 
 }
