@@ -62,8 +62,8 @@
       "value": 400,
       "prompt": "What tool does Andy Dufrene use to tunnel out of prison?",
       "correctAnswers": [
-        "spoon",
-        "a spoon"
+        "hammer",
+        "rock hammer"
       ],
       "className": "movies400"
     },
@@ -1406,13 +1406,6 @@
       "className": "tv600",
       "value": 600,
       "id": 125
-    },
-    {
-      "prompt": "who am I?",
-      "correctAnswers": "brian",
-      "className": "geography1000",
-      "value": 1000,
-      "id": 126
     }
   ]
 }

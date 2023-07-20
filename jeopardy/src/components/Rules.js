@@ -1,5 +1,6 @@
 import React from "react"
 
+
 function Rules(){
 
     return <div>
@@ -15,6 +16,12 @@ function Rules(){
             <h3>8. To reset the board and play again just click the "Play Again" button</h3>
 
             <h2>If you would like to add a new question to the database, go to the "Add a new question" tab</h2>
+
+            
     </div>
+
+
+
 }
 export default Rules
+

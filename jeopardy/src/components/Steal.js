@@ -1,6 +1,6 @@
 import React, {useState,useEffect} from "react"
 
-function Steal({handleSubmitAnswer,question}){
+function Steal({handleSubmitAnswer,question,teamCounter}){
 
     const [timeRemaining,setTimeRemaining]=useState(10)
     const [inputValue,setInputValue]=useState("")
@@ -37,7 +37,7 @@ function Steal({handleSubmitAnswer,question}){
    
 
     return <div>
-        <h1 className="steal">Steal!</h1>
+        <h1 className="steal">{teamCounter?"Team 2 Can ":"Team 1 Can "}Steal!</h1>
         <div className={((timeRemaining>5)?"greencircle":((timeRemaining>3)?"yellowcircle":"redcircle"))}>
         <span className="timer">{timeRemaining}</span>
         </div>
@@ -46,7 +46,7 @@ function Steal({handleSubmitAnswer,question}){
         <h1 className="prompt">{question.prompt}</h1>
         <form onSubmit={handleSubmit}>
             <input autoFocus placeholder="type answer here" value={inputValue} onChange={onAnswered}></input>
-            <button>Submit</button>
+            <button> Submit</button>
 
         </form>
         </div>  

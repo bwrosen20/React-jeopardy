@@ -22,9 +22,23 @@ function NewQuestionForm(){
     })
   }
 
+  function handleSubmitted(){
+    setTimeout(()=>{
+      setSubmitted(false)
+      setFormData(({
+     prompt:"",
+    correctAnswers:[],
+    className:"",
+    value:0
+      }))
+    },1500)
+  }
 
-  function handleSubmit(){
+
+  function handleSubmit(event){
+    event.preventDefault()
     setSubmitted(true)
+    handleSubmitted()
     fetch("http://localhost:3001/questions",{
       method:"POST",
       headers:{

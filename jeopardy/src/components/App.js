@@ -116,7 +116,7 @@ return (
             <GameOver endGame={endGame} team1Points={team1Points} team2Points={team2Points}/>
         </Route>
         <Route exact path="/steal">
-            <Steal steal={steal} question={stealQuestion} handleSubmitAnswer={handleSubmitAnswer}/>
+            <Steal steal={steal} question={stealQuestion} handleSubmitAnswer={handleSubmitAnswer} teamCounter={teamCounter}/>
         </Route>
         <Route exact path="/theanswer">
             <TheAnswer questionTracker={questionTracker} steal={steal} wereTheyRight={wereTheyRight} correctAnswer={correctAnswer} teamCounter={teamCounter}/>
