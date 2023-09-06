@@ -37,13 +37,13 @@ function Steal({handleSubmitAnswer,question,teamCounter}){
    
 
     return <div>
-        <h1 className="steal">{teamCounter?"Team 2 Can ":"Team 1 Can "}Steal!</h1>
+        <h2 className="steal">{teamCounter?"Team 2 Can ":"Team 1 Can "}Steal!</h2>
         <div className={((timeRemaining>5)?"greencircle":((timeRemaining>3)?"yellowcircle":"redcircle"))}>
         <span className="timer">{timeRemaining}</span>
         </div>
        
           <div className="questionscreen">
-        <h1 className="prompt">{question.prompt}</h1>
+        <h2 className="prompt">{question.prompt}</h2>
         <form onSubmit={handleSubmit}>
             <input autoFocus placeholder="type answer here" value={inputValue} onChange={onAnswered}></input>
             <button> Submit</button>

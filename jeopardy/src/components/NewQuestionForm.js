@@ -50,23 +50,25 @@ function NewQuestionForm(){
     .then((data)=>console.log(data))
   }
 
-    return <div>
+    return <div className="form">
         <section>
       <h1>New Question</h1>
       <form onSubmit={handleSubmit} autoComplete="off">
         <label>
-          Prompt:
-          <input
+          Prompt: </label>
+          <br></br>
+          <textarea
             placeholder="Please input question"
-            className="forminput"
+            rows="3"
             type="text"
             name="prompt"
             value={formData.prompt}
             onChange={handleChange}
           />
-        </label>
+       <br></br>
         <label>
-          Correct answer:
+          Correct answer:</label>
+          <br></br>
           <input
             placeholder="Please input answer"
             type="text"
@@ -74,9 +76,10 @@ function NewQuestionForm(){
             value={formData.correctAnswers}
             onChange={handleChange}
           />
-        </label>
         <label>
-          Category/value:
+          <br></br>
+          Category/value:</label>
+          <br></br>
           <select
             placeholder="Select category/value"
             name="className"
@@ -110,8 +113,8 @@ function NewQuestionForm(){
             <option value="books800">books800</option>
             <option value="books1000">books1000</option>
           </select>
-        </label>
-        
+        <br></br>
+        <br></br>
         <button type="submit">Add Question</button>
       </form>
     </section>

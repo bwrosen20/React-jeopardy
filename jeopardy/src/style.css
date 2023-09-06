@@ -2,6 +2,20 @@
     background-color:lightgrey
 }
 
+h1{
+  text-align:center;
+  text-decoration:underline;
+}
+
+button{
+  cursor:pointer;
+  text-align:center;
+}
+
+select{
+  cursor:pointer;
+}
+
 .qcontainer {
     margin:auto;
     width:500px;
@@ -9,7 +23,8 @@
     display:grid;
     grid-template-columns:100px 100px 100px 100px 100px ;
     grid-template-rows:60px 60px 60px 60px 60px;
-    border: 10px solid black;
+    border: 5px solid black;
+    border-radius:10px;
     column-gap:0;
     row-gap:0px;
     text-align:center;
@@ -28,8 +43,11 @@
     height:60px;
     width:100px;
     cursor:pointer;
-
 }
+
+    .question:hover{
+      font-size:25px;
+    }
 
 .header{
     text-align:center;
@@ -40,7 +58,8 @@
     display:grid;
     grid-template-columns:100px 100px 100px 100px 100px ;
     grid-template-rows:100px;
-    border: 10px solid black;
+    border: 5px solid black;
+    border-radius:10px;
     column-gap:0px;
     row-gap:0px;
     width:500px;
@@ -51,7 +70,7 @@
     background-color:blue;
     color:white;
     border:1px solid black;
-    font-size:10px;
+    font-size:14px;
     text-align:center;
     padding:1px;
     width:100px;
@@ -86,10 +105,9 @@
     width: 475px;
     height: 50px;
     padding: 10px;
-    border: 2px solid black;
     background-color: grey;
-    margin-left:auto;
-    margin-top:20px;
+    box-shadow:2px 5px 5px 2px rgb(0, 0, 0);
+    margin:30px auto;
   }
 
   .score{
@@ -117,7 +135,7 @@
     font-weight:bold;
     height:60px;
     width:100px;
-
+    cursor:default;
   }
 
   .greencircle {
@@ -187,7 +205,11 @@
 .rightanswer{
   font-size:20px;
   padding:15px;
-  margin:auto;
+  width:50%;
+  height:fit-content;
+  box-shadow:3px 5px 5px 3px black;
+  border-radius:8px;
+  margin:20px auto;
   text-align:center;
   background-color:green;
 }
@@ -195,7 +217,11 @@
 .wronganswer{
   font-size:20px;
   padding:15px;
-  margin:auto;
+  width:50%;
+  height:fit-content;
+  box-shadow:3px 5px 5px 3px black;
+  border-radius:8px;
+  margin:20px auto;
   text-align:center;
   background-color:red;
 }
@@ -203,6 +229,16 @@
 .forminput{
   width:95%;
 }
+
+.form{
+  margin:20px auto;
+  justify-content:center;
+  width:fit-content;
+  box-shadow:3px 5px 5px 3px gray;
+  border-radius:15px;
+  padding:0 10px 10px;
+}
+
 .center{
   text-align:center;
   margin-top:35px;

@@ -42,7 +42,7 @@ function Question({question,handleSubmitAnswer}){
         </div>
         <div className="questionscreen">
             
-        <h1 className="prompt">{question.prompt}</h1>
+        <h2 className="prompt">{question.prompt}</h2>
         <form onSubmit={handleSubmit}>
             <input autoFocus placeholder="type answer here" value={inputValue} onChange={onAnswered}></input>
             <button> Submit</button>

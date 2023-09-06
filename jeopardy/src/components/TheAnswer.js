@@ -48,7 +48,7 @@ function TheAnswer({questionTracker, steal,correctAnswer,wereTheyRight}){
    
    return <div className={wereTheyRight?"rightanswer":"wronganswer"}>
 
-        {wereTheyRight?<h1>Correct!!</h1>:(steal?<h1>Incorrect- Other team can steal</h1>:<h1>Incorrect- The right answer was {correctAnswer}</h1>)}
+        {wereTheyRight?<h2>Correct!!</h2>:(steal?<h2>Incorrect- Other team can steal</h2>:<h2>Incorrect- The right answer was {correctAnswer}</h2>)}
 
     </div>
 }
