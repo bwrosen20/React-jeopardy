@@ -24,7 +24,8 @@ select{
     grid-template-columns:100px 100px 100px 100px 100px ;
     grid-template-rows:60px 60px 60px 60px 60px;
     border: 5px solid black;
-    border-radius:10px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
     column-gap:0;
     row-gap:0px;
     text-align:center;
@@ -59,7 +60,9 @@ select{
     grid-template-columns:100px 100px 100px 100px 100px ;
     grid-template-rows:100px;
     border: 5px solid black;
-    border-radius:10px;
+    border-bottom:0;
+    border-top-right-radius:10px;
+    border-top-left-radius:10px;
     column-gap:0px;
     row-gap:0px;
     width:500px;
